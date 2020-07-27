@@ -1,4 +1,4 @@
-# semanlink-kdmkb
+# Semanlink-KD-MKB
 Export of semanlink data for [kd-mkb](https://github.com/raphaelsty/kdmkb)
 
 ## Data
@@ -13,4 +13,3 @@ That's all for the moment.
 
 - Python >= 3.6
 - pip install rdflib
-
