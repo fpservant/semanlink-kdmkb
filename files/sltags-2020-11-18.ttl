@@ -112,7 +112,7 @@ tag:neural_models_for_information_retrieval
         a                sl:Tag ;
         sl:creationDate  "2019-08-18" ;
         sl:creationTime  "2019-08-18T23:00:46Z" ;
-        skos:broader     tag:artificial_neural_network , tag:information_retrieval , tag:nlp_based_ir ;
+        skos:broader     tag:artificial_neural_network , tag:information_retrieval ;
         skos:prefLabel   "Neural Models for Information Retrieval" .
 
 tag:docker_mac  a        sl:Tag ;
@@ -136,12 +136,6 @@ tag:les_100_pieges_de_l_anglais
         sl:creationTime  "2007-02-17T01:52:28Z" ;
         skos:broader     tag:learning_english , tag:anglais ;
         skos:prefLabel   "Les 100 pièges de l'Anglais" .
-
-tag:surveillance_capitalism
-        a                sl:Tag ;
-        sl:creationDate  "2020-12-19" ;
-        sl:creationTime  "2020-12-19T13:52:55Z" ;
-        skos:prefLabel   "Surveillance Capitalism" .
 
 tag:semantic_negotiation
         a                sl:Tag ;
@@ -265,12 +259,6 @@ tag:knowledge_graph_conference_2019
         skos:broader     tag:conferences , tag:enterprise_knowledge_graph ;
         skos:prefLabel   "Knowledge Graph Conference 2019" ;
         skos:related     tag:francois_scharffe .
-
-tag:phrase_mining  a     sl:Tag ;
-        sl:creationDate  "2020-12-14" ;
-        sl:creationTime  "2020-12-14T19:11:07Z" ;
-        skos:broader     tag:phrases_nlp ;
-        skos:prefLabel   "Phrase mining" .
 
 tag:comedie  a           sl:Tag ;
         sl:creationDate  "2006-10-21" ;
@@ -1136,15 +1124,15 @@ tag:leigh_dodds  a      sl:Tag ;
         skos:broader    tag:technical_girls_and_guys , tag:sw_guys ;
         skos:prefLabel  "Leigh Dodds" .
 
-tag:serbie  a           sl:Tag ;
-        skos:broader    tag:yougoslavie ;
-        skos:prefLabel  "Serbie" .
-
 tag:json  a             sl:Tag ;
         sl:sameAs       <http://dbpedia.org/resource/JSON> ;
         skos:prefLabel  "JSON" ;
         <http://xmlns.com/foaf/0.1/homepage>
                 <http://www.json.org/> .
+
+tag:serbie  a           sl:Tag ;
+        skos:broader    tag:yougoslavie ;
+        skos:prefLabel  "Serbie" .
 
 tag:poker  a             sl:Tag ;
         sl:creationDate  "2007-07-28" ;
@@ -1160,13 +1148,6 @@ tag:rdf_context  a       sl:Tag ;
 tag:mac_software  a     sl:Tag ;
         skos:broader    tag:software , tag:macintosh ;
         skos:prefLabel  "Mac software" .
-
-tag:collective_punishment
-        a                sl:Tag ;
-        sl:creationDate  "2020-12-22" ;
-        sl:creationTime  "2020-12-22T21:05:49Z" ;
-        sl:describedBy   <https://en.wikipedia.org/wiki/Collective_punishment> ;
-        skos:prefLabel   "Collective punishment" .
 
 tag:ldow2013  a          sl:Tag ;
         sl:creationDate  "2013-03-02" ;
@@ -1190,12 +1171,6 @@ tag:meetup_web_semantique
 tag:mac_mini  a         sl:Tag ;
         skos:broader    tag:macintosh ;
         skos:prefLabel  "Mac Mini"@fr .
-
-tag:usa_histoire  a      sl:Tag ;
-        sl:creationDate  "2008-11-13" ;
-        sl:creationTime  "2008-11-13T21:25:52Z" ;
-        skos:broader     tag:usa , tag:histoire ;
-        skos:prefLabel   "USA : histoire" .
 
 tag:speech_recognition
         a                sl:Tag ;
@@ -1258,12 +1233,6 @@ tag:folksonomies_ontologies
 tag:eclipse  a          sl:Tag ;
         skos:broader    tag:dev_tools , tag:dev ;
         skos:prefLabel  "Eclipse" .
-
-tag:coling2020  a        sl:Tag ;
-        sl:creationDate  "2020-10-02" ;
-        sl:creationTime  "2020-10-02T03:14:36Z" ;
-        skos:broader     tag:nlp_conference ;
-        skos:prefLabel   "COLING2020" .
 
 tag:fete_nationale  a    sl:Tag ;
         sl:creationDate  "2007-07-14" ;
@@ -1707,7 +1676,7 @@ tag:accountable_ai  a    sl:Tag ;
         sl:creationDate  "2018-11-05" ;
         sl:creationTime  "2018-11-05T09:40:12Z" ;
         skos:broader     tag:artificial_intelligence ;
-        skos:prefLabel   "Accountable AI"@en .
+        skos:prefLabel   "Accountable AI" .
 
 tag:tpu  a               sl:Tag ;
         sl:creationDate  "2018-10-05" ;
@@ -1978,9 +1947,8 @@ tag:jose_moreno  a       sl:Tag ;
 
 tag:recherche_francaise
         a               sl:Tag ;
-        skos:altLabel   "Recherche française"@fr ;
         skos:broader    tag:recherche , tag:france ;
-        skos:prefLabel  "France : recherche"@fr .
+        skos:prefLabel  "Recherche française" .
 
 tag:land_degradation  a  sl:Tag ;
         sl:creationDate  "2018-03-26" ;
@@ -2075,21 +2043,14 @@ tag:https  a             sl:Tag ;
         skos:broader     tag:securite_informatique ;
         skos:prefLabel   "HTTPS" .
 
-tag:soap  a             sl:Tag ;
-        skos:broader    tag:web_services , tag:xml ;
-        skos:prefLabel  "SOAP" .
-
 tag:catastrophe_humanitaire
         a               sl:Tag ;
         skos:broader    tag:catastrophe , tag:horreur ;
         skos:prefLabel  "Catastrophe humanitaire"@fr .
 
-tag:france_delabrement
-        a                sl:Tag ;
-        sl:creationDate  "2020-12-17" ;
-        sl:creationTime  "2020-12-17T12:47:30Z" ;
-        skos:broader     tag:etat_de_la_france ;
-        skos:prefLabel   "France : délabrement" .
+tag:soap  a             sl:Tag ;
+        skos:broader    tag:web_services , tag:xml ;
+        skos:prefLabel  "SOAP" .
 
 tag:juliana_rotich  a    sl:Tag ;
         sl:comment       "\"I firmly believe we are in the New African Century. Tech is transformative and can help African countries leapfrog to a better future.\"" ;
@@ -2238,6 +2199,13 @@ tag:jdd_apple  a        sl:Tag ;
         skos:broader    tag:apple ;
         skos:prefLabel  "JDD Apple" .
 
+tag:nso_pegasus  a       sl:Tag ;
+        sl:creationDate  "2020-07-14" ;
+        sl:creationTime  "2020-07-14T12:32:26Z" ;
+        skos:broader     tag:cybersurveillance ;
+        skos:prefLabel   "NSO/Pegasus" ;
+        skos:related     tag:israel .
+
 tag:hierarchical_clustering
         a                sl:Tag ;
         sl:comment       "Cluster analysis which seeks to build a hierarchy of clusters: given datapoints and their\r\npairwise similarities, the goal is to construct a hierarchy over clusters, in the form of a tree whose leaves\r\ncorrespond to datapoints and internal nodes correspond to clusters\r\n\r\n2 kinds:\r\n\r\n- Agglomerative\r\n- Divisive"@en ;
@@ -2245,14 +2213,7 @@ tag:hierarchical_clustering
         sl:creationTime  "2017-07-18T16:11:10Z" ;
         sl:describedBy   <https://en.wikipedia.org/wiki/Hierarchical_clustering> ;
         skos:broader     tag:cluster_analysis , tag:hierarchies_in_ml ;
-        skos:prefLabel   "Hierarchical Clustering"@en .
-
-tag:nso_pegasus  a       sl:Tag ;
-        sl:creationDate  "2020-07-14" ;
-        sl:creationTime  "2020-07-14T12:32:26Z" ;
-        skos:broader     tag:cybersurveillance ;
-        skos:prefLabel   "NSO/Pegasus" ;
-        skos:related     tag:israel .
+        skos:prefLabel   "Hierarchical clustering"@fr .
 
 tag:identity_crisis_in_linked_data
         a                sl:Tag ;
@@ -2330,12 +2291,6 @@ tag:apache_on_my_mac  a  sl:Tag ;
         sl:creationTime  "2008-12-01T00:47:50Z" ;
         skos:broader     tag:apache , tag:notes_d_install ;
         skos:prefLabel   "Apache on my mac" .
-
-tag:fonds_speculatifs
-        a               sl:Tag ;
-        skos:altLabel   "Hedge funds"@en ;
-        skos:broader    tag:marches_financiers , tag:speculation ;
-        skos:prefLabel  "Fonds spéculatifs" .
 
 tag:origine_de_l_agriculture
         a               sl:Tag ;
@@ -2963,13 +2918,6 @@ tag:second_life  a      sl:Tag ;
         skos:broader    tag:massively_multiplayer_online_games ;
         skos:prefLabel  "Second Life" .
 
-tag:violence_policiere
-        a                sl:Tag ;
-        sl:creationDate  "2007-11-29" ;
-        sl:creationTime  "2007-11-29T23:03:01Z" ;
-        skos:broader     tag:police , tag:violence ;
-        skos:prefLabel   "Violence policière" .
-
 tag:alex_allauzen  a     sl:Tag ;
         sl:creationDate  "2018-07-07" ;
         sl:creationTime  "2018-07-07T12:41:14Z" ;
@@ -3394,7 +3342,7 @@ tag:programming_language
 tag:deletefb  a          sl:Tag ;
         sl:creationDate  "2019-12-03" ;
         sl:creationTime  "2019-12-03T00:48:20Z" ;
-        skos:broader     tag:social_networkd_are_bad , tag:facebook , tag:the_web_sucks , tag:dark_side_of_tech ;
+        skos:broader     tag:facebook , tag:the_web_sucks ;
         skos:prefLabel   "DeleteFB" .
 
 tag:france_telecom  a   sl:Tag ;
@@ -3521,8 +3469,8 @@ tag:new_yorker  a        sl:Tag ;
 
 tag:president_des_usa
         a               sl:Tag ;
-        skos:broader    tag:usa , tag:chef_d_etat ;
-        skos:prefLabel  "Président des USA"@fr .
+        skos:broader    tag:chef_d_etat , tag:usa ;
+        skos:prefLabel  "Président des USA" .
 
 tag:twine  a             sl:Tag ;
         sl:creationDate  "2007-11-08" ;
@@ -4157,12 +4105,6 @@ tag:wordnet  a          sl:Tag ;
         <http://xmlns.com/foaf/0.1/homepage>
                 <https://wordnet.princeton.edu> .
 
-tag:voile_mer  a         sl:Tag ;
-        sl:creationDate  "2021-01-26" ;
-        sl:creationTime  "2021-01-26T00:10:47Z" ;
-        skos:broader     tag:mer ;
-        skos:prefLabel   "Voile (bateau)"@fr .
-
 tag:critique_du_liberalisme
         a               sl:Tag ;
         skos:broader    tag:politique , tag:critique_du_capitalisme ;
@@ -4308,12 +4250,6 @@ tag:histoire_de_l_astronomie
         skos:broader     tag:astronomie ;
         skos:prefLabel   "Histoire de l'astronomie" .
 
-tag:ai_event  a          sl:Tag ;
-        sl:creationDate  "2021-01-27" ;
-        sl:creationTime  "2021-01-27T13:44:14Z" ;
-        skos:broader     tag:event , tag:artificial_intelligence ;
-        skos:prefLabel   "AI Event" .
-
 tag:automotive_ontologies
         a                sl:Tag ;
         sl:creationDate  "2012-12-13" ;
@@ -4407,15 +4343,6 @@ tag:survey_analysis  a   sl:Tag ;
         skos:prefLabel   "Survey analysis" ;
         skos:related     tag:topic_modeling_over_short_texts .
 
-tag:hayabusa2  a         sl:Tag ;
-        sl:creationDate  "2021-01-09" ;
-        sl:creationTime  "2021-01-09T14:22:21Z" ;
-        sl:describedBy   <https://en.wikipedia.org/wiki/Hayabusa2> ;
-        skos:altLabel    "Hayabusa2"@- ;
-        skos:broader     tag:japon , tag:asteroide , tag:missions_spatiales ;
-        skos:prefLabel   "Hayabusa-2" ;
-        skos:related     tag:hayabusa .
-
 tag:self_organizing_systems
         a                sl:Tag ;
         sl:creationDate  "2011-06-22" ;
@@ -4507,8 +4434,7 @@ tag:nlp_4_semanlink  a   sl:Tag ;
         sl:creationDate  "2020-07-28" ;
         sl:creationTime  "2020-07-28T01:40:47Z" ;
         skos:broader     tag:semanlink_related , tag:semanlink2 , tag:semanlink , tag:nlp ;
-        skos:prefLabel   "NLP 4 Semanlink" ;
-        skos:related     tag:personal_knowledge_graph .
+        skos:prefLabel   "NLP 4 Semanlink" .
 
 tag:canal  a             sl:Tag ;
         sl:creationDate  "2016-05-14" ;
@@ -5222,9 +5148,9 @@ tag:nlp  a               sl:Tag ;
         sl:creationDate  "2008-07-19" ;
         sl:creationTime  "2008-07-19T18:25:29Z" ;
         sl:describedBy   <https://en.wikipedia.org/wiki/Natural_language_processing> ;
-        skos:altLabel    "Traitement Automatique du Langage Naturel"@fr , "Natural Language Processing"@en , "TALN"@fr ;
+        skos:altLabel    "Natural Language Processing" ;
         skos:broader     tag:favoris , tag:langage , tag:semantic_technology , tag:artificial_intelligence ;
-        skos:prefLabel   "NLP"@en .
+        skos:prefLabel   "NLP" .
 
 tag:high_frequency_trading
         a                sl:Tag ;
@@ -5375,14 +5301,6 @@ tag:path_queries  a      sl:Tag ;
         sl:creationTime  "2015-10-31T00:16:49Z" ;
         skos:prefLabel   "Path queries" .
 
-tag:language_models_size
-        a                sl:Tag ;
-        sl:creationDate  "2021-01-23" ;
-        sl:creationTime  "2021-01-23T16:49:51Z" ;
-        skos:broader     tag:language_model ;
-        skos:prefLabel   "Language Models: size" ;
-        skos:related     tag:stochastic_parrots .
-
 tag:michel_serres  a     sl:Tag ;
         sl:creationDate  "2011-03-07" ;
         sl:creationTime  "2011-03-07T08:59:29Z" ;
@@ -5517,12 +5435,6 @@ tag:fabien_gandon  a     sl:Tag ;
         skos:broader     tag:sw_guys ;
         skos:prefLabel   "Fabien Gandon" .
 
-tag:techlash  a          sl:Tag ;
-        sl:creationDate  "2020-12-19" ;
-        sl:creationTime  "2020-12-19T13:54:16Z" ;
-        skos:broader     tag:dark_side_of_tech ;
-        skos:prefLabel   "Techlash" .
-
 tag:access_token  a      sl:Tag ;
         sl:creationDate  "2020-10-23" ;
         sl:creationTime  "2020-10-23T11:47:53Z" ;
@@ -5560,17 +5472,17 @@ tag:harry_halpin  a      sl:Tag ;
         skos:broader     tag:technical_girls_and_guys ;
         skos:prefLabel   "Harry Halpin" .
 
-tag:championnat_du_monde
-        a               sl:Tag ;
-        skos:broader    tag:sport ;
-        skos:prefLabel  "Championnat du monde"@fr .
-
 tag:rdf_working_group
         a                sl:Tag ;
         sl:creationDate  "2011-04-18" ;
         sl:creationTime  "2011-04-18T20:32:11Z" ;
         skos:broader     tag:w3c ;
         skos:prefLabel   "RDF Working Group" .
+
+tag:championnat_du_monde
+        a               sl:Tag ;
+        skos:broader    tag:sport ;
+        skos:prefLabel  "Championnat du monde"@fr .
 
 tag:france_dysfonctionnement_des_institutions
         a                sl:Tag ;
@@ -5611,10 +5523,10 @@ tag:afrique_medievale
         skos:prefLabel   "Afrique médiévale" .
 
 tag:emnlp_2018  a        sl:Tag ;
-        sl:comment       "Conference on Empirical Methods in Natural Language Processing. [Proceedings](https://www.aclweb.org/anthology/D18-1000/) ([was](https://aclanthology.coli.uni-saarland.de/events/emnlp-2018))"@en ;
+        sl:comment       "Conference on Empirical Methods in Natural Language Processing. [Proceedings](https://aclanthology.coli.uni-saarland.de/events/emnlp-2018)"@en ;
         sl:creationDate  "2018-10-01" ;
         sl:creationTime  "2018-10-01T10:55:27Z" ;
-        skos:broader     tag:emnlp , tag:j_y_etais , tag:bruxelles ;
+        skos:broader     tag:j_y_etais , tag:bruxelles , tag:emnlp ;
         skos:prefLabel   "EMNLP 2018" ;
         <http://xmlns.com/foaf/0.1/homepage>
                 <http://emnlp2018.org/> .
@@ -5708,12 +5620,6 @@ tag:drupal_modules  a    sl:Tag ;
         sl:creationTime  "2012-01-23T11:52:24Z" ;
         skos:broader     tag:drupal ;
         skos:prefLabel   "Drupal modules" .
-
-tag:gpt_2  a             sl:Tag ;
-        sl:creationDate  "2020-12-15" ;
-        sl:creationTime  "2020-12-15T17:57:46Z" ;
-        skos:broader     tag:openai_gpt ;
-        skos:prefLabel   "GPT-2" .
 
 tag:phrase_embeddings
         a                sl:Tag ;
@@ -6477,7 +6383,7 @@ tag:bert_kb  a           sl:Tag ;
         sl:creationDate  "2020-10-17" ;
         sl:creationTime  "2020-10-17T12:26:56Z" ;
         skos:altLabel    "BERT + Knowledge Graphs"@en , "BERT + Knowledge Bases"@en ;
-        skos:broader     tag:language_models_knowledge , tag:bert , tag:kg_and_nlp , tag:nlp_using_knowledge_graphs ;
+        skos:broader     tag:bert , tag:kg_and_nlp , tag:nlp_using_knowledge_graphs ;
         skos:prefLabel   "BERT + KB" .
 
 tag:mac_os_x_10_8  a     sl:Tag ;
@@ -6861,10 +6767,6 @@ tag:hierarchical_tags
         skos:prefLabel   "Hierarchical tags" ;
         skos:related     tag:skos .
 
-tag:co_  a              sl:Tag ;
-        skos:altLabel   "CO2" ;
-        skos:prefLabel  "Gaz carbonique" .
-
 tag:ldow2011  a          sl:Tag ;
         sl:creationDate  "2013-03-02" ;
         sl:creationTime  "2013-03-02T13:10:54Z" ;
@@ -6877,12 +6779,9 @@ tag:tree_embeddings  a   sl:Tag ;
         skos:broader     tag:embeddings ;
         skos:prefLabel   "Tree embeddings" .
 
-tag:caterpillar  a       sl:Tag ;
-        sl:creationDate  "2021-01-28" ;
-        sl:creationTime  "2021-01-28T12:19:57Z" ;
-        sl:describedBy   <https://en.wikipedia.org/wiki/Caterpillar_Inc.> ;
-        skos:broader     tag:entreprise ;
-        skos:prefLabel   "Caterpillar" .
+tag:co_  a              sl:Tag ;
+        skos:altLabel   "CO2" ;
+        skos:prefLabel  "Gaz carbonique" .
 
 tag:medical_ir_ml_ia  a  sl:Tag ;
         sl:creationDate  "2019-02-09" ;
@@ -6894,7 +6793,7 @@ tag:kg_and_nlp  a        sl:Tag ;
         sl:creationDate  "2019-01-27" ;
         sl:creationTime  "2019-01-27T14:53:45Z" ;
         skos:altLabel    "Knowledge Graphs + Text" , "KG + NLP" ;
-        skos:broader     tag:nlp , tag:ai_knowledge_bases , tag:graphs_nlp , tag:knowledge_graph ;
+        skos:broader     tag:nlp , tag:ai_knowledge_bases , tag:knowledge_graph ;
         skos:prefLabel   "Knowledge Graphs and NLP"@en ;
         skos:related     tag:combining_text_and_structured_data_ml_nlp , tag:combining_word_and_entity_embeddings , tag:these_renault_embeddings , tag:nlp_using_knowledge .
 
@@ -6944,16 +6843,6 @@ tag:espace  a           sl:Tag ;
         skos:broader    tag:astronomie ;
         skos:prefLabel  "Espace" .
 
-tag:foreign_policy_of_the_united_states
-        a                sl:Tag ;
-        sl:creationDate  "2020-12-22" ;
-        sl:creationTime  "2020-12-22T21:01:24Z" ;
-        sl:describedBy   <https://en.wikipedia.org/wiki/Foreign_policy_of_the_United_States> ;
-        skos:altLabel    "Politique extérieure américaine"@en ;
-        skos:broader     tag:usa ;
-        skos:prefLabel   "USA: Foreign policy"@en ;
-        skos:related     tag:imperialisme_americain .
-
 tag:clandestins  a      sl:Tag ;
         skos:broader    tag:immigration ;
         skos:prefLabel  "Clandestins" .
@@ -6996,13 +6885,6 @@ tag:travail  a           sl:Tag ;
         sl:creationDate  "2007-11-21" ;
         sl:creationTime  "2007-11-21T15:18:10Z" ;
         skos:prefLabel   "Travail" .
-
-tag:boston_dynamics  a   sl:Tag ;
-        sl:creationDate  "2020-12-30" ;
-        sl:creationTime  "2020-12-30T13:12:37Z" ;
-        sl:describedBy   <https://en.wikipedia.org/wiki/Boston_Dynamics> ;
-        skos:broader     tag:entreprise , tag:robotique ;
-        skos:prefLabel   "Boston Dynamics" .
 
 tag:blogmarks  a        sl:Tag ;
         skos:broader    tag:tagging , tag:social_bookmarking ;
@@ -7686,8 +7568,6 @@ tag:cvs  a               sl:Tag ;
 tag:virtual_currency  a  sl:Tag ;
         sl:creationDate  "2016-03-28" ;
         sl:creationTime  "2016-03-28T12:50:27Z" ;
-        skos:altLabel    "Monnaie virtuelle" ;
-        skos:broader     tag:money ;
         skos:prefLabel   "Virtual currency" .
 
 tag:apache_spark  a      sl:Tag ;
@@ -7892,12 +7772,6 @@ tag:bertrand_sajus  a    sl:Tag ;
         skos:broader     tag:sw_guys , tag:ministere_de_la_culture ;
         skos:prefLabel   "Bertrand Sajus" .
 
-tag:france_police  a     sl:Tag ;
-        sl:creationDate  "2020-12-17" ;
-        sl:creationTime  "2020-12-17T12:48:39Z" ;
-        skos:broader     tag:police , tag:france ;
-        skos:prefLabel   "France : police" .
-
 tag:functional_programming
         a                sl:Tag ;
         sl:creationDate  "2014-10-07" ;
@@ -8069,12 +7943,6 @@ tag:entity_salience  a   sl:Tag ;
         sl:creationTime  "2020-10-10T03:39:05Z" ;
         skos:broader     tag:entities ;
         skos:prefLabel   "Entity salience" .
-
-tag:covid19_vaccin  a    sl:Tag ;
-        sl:creationDate  "2020-11-28" ;
-        sl:creationTime  "2020-11-28T16:22:35Z" ;
-        skos:broader     tag:coronavirus ;
-        skos:prefLabel   "Covid19 : vaccin" .
 
 tag:xss  a               sl:Tag ;
         sl:creationDate  "2006-12-11" ;
@@ -8294,12 +8162,6 @@ tag:bonus  a             sl:Tag ;
         sl:creationTime  "2009-08-14T08:58:54Z" ;
         skos:prefLabel   "Bonus" .
 
-tag:gamestop  a          sl:Tag ;
-        sl:creationDate  "2021-01-29" ;
-        sl:creationTime  "2021-01-29T10:15:59Z" ;
-        skos:broader     tag:short_sales , tag:speculation , tag:vive_le_capitalisme , tag:reddit , tag:fonds_speculatifs ;
-        skos:prefLabel   "Gamestop" .
-
 tag:sahara  a           sl:Tag ;
         skos:broader    tag:afrique , tag:desert ;
         skos:prefLabel  "Sahara"@fr .
@@ -8496,10 +8358,6 @@ tag:www_2009  a          sl:Tag ;
         skos:broader     tag:www_conference ;
         skos:prefLabel   "WWW 2009" .
 
-tag:cancer  a           sl:Tag ;
-        skos:broader    tag:grands_problemes , tag:maladie ;
-        skos:prefLabel  "Cancer" .
-
 tag:meta_content_framework
         a               sl:Tag ;
         sl:sameAs       <http://dbpedia.org/resource/Meta_Content_Framework> ;
@@ -8537,24 +8395,22 @@ tag:bert  a              sl:Tag ;
         sl:comment       "\"Bidirectional Encoder Representations from Transformers\": pretraining technique for NLP.\r\n\r\n[Google AI blog post](https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html)\r\n\r\n> BERT is designed to pre-train\r\ndeep bidirectional representations by jointly\r\nconditioning on both left and right context in\r\nall layers. As a result, the pre-trained BERT\r\nrepresentations can be fine-tuned with just one\r\nadditional output layer\r\n\r\nBERT is pre-trained on two auxiliary tasks: **Masked Language Model** and\r\n**Next Sentence Prediction** (but it has been shown in the RoBERTa paper that this\r\ntraining objective doesn’t help that much).\r\n\r\nThe general BERT adaptation approach is to alter the model used for pre-training while retaining the transformer\r\nencoder layers. The model discards the layers used for the final prediction in the pre-training tasks and adds layers to\r\npredict the target task. All parameters are then fine tuned on the target task\r\n\r\nBuilds on [#The Transformer](/tag/attention_is_all_you_need)\r\n\r\nCode and pre-trained models open-sourced on Nov 3rd, 2018."@en ;
         sl:creationDate  "2018-11-05" ;
         sl:creationTime  "2018-11-05T14:45:44Z" ;
-        skos:broader     tag:nlp_google , tag:pre_trained_language_models , tag:contextualised_word_representations , tag:attention_is_all_you_need ;
-        skos:prefLabel   "BERT" .
+        skos:broader     tag:nlp_google , tag:pre_trained_language_models , tag:contextualised_word_representations ;
+        skos:prefLabel   "BERT" ;
+        skos:related     tag:attention_is_all_you_need .
+
+tag:cancer  a           sl:Tag ;
+        skos:broader    tag:grands_problemes , tag:maladie ;
+        skos:prefLabel  "Cancer" .
 
 tag:usa  a              sl:Tag ;
-        skos:altLabel   "ÉTATS-UNIS"@fr , "United States"@en ;
+        skos:altLabel   "ÉTATS-UNIS"@fr ;
         skos:broader    tag:amerique ;
-        skos:prefLabel  "USA"@en .
+        skos:prefLabel  "USA"@fr .
 
 tag:spurl  a            sl:Tag ;
         skos:broader    tag:tagging , tag:social_bookmarking ;
         skos:prefLabel  "spurl" .
-
-tag:ernie  a             sl:Tag ;
-        sl:creationDate  "2020-12-15" ;
-        sl:creationTime  "2020-12-15T14:07:36Z" ;
-        skos:broader     tag:nlp_using_knowledge_graphs , tag:baidu , tag:knowledge_graph_augmented_language_models , tag:pre_trained_language_models ;
-        skos:prefLabel   "ERNIE" ;
-        skos:related     tag:bert .
 
 tag:italie  a           sl:Tag ;
         skos:broader    tag:europe , tag:pays_d_europe ;
@@ -8917,12 +8773,6 @@ tag:youtube_video  a     sl:Tag ;
         sl:creationTime  "2008-11-10T10:30:17Z" ;
         skos:broader     tag:youtube ;
         skos:prefLabel   "YouTube video" .
-
-tag:e_commerce_data  a   sl:Tag ;
-        sl:creationDate  "2020-12-14" ;
-        sl:creationTime  "2020-12-14T23:32:27Z" ;
-        skos:broader     tag:e_commerce ;
-        skos:prefLabel   "e-commerce data" .
 
 tag:distant_supervision
         a                sl:Tag ;
@@ -9702,14 +9552,6 @@ tag:finding_rdf_documents
         skos:broader    tag:rdf ;
         skos:prefLabel  "Finding RDF documents" .
 
-tag:jsfiddle  a          sl:Tag ;
-        sl:creationDate  "2012-08-08" ;
-        sl:creationTime  "2012-08-08T15:58:18Z" ;
-        skos:broader     tag:javascript_tool , tag:sample_code , tag:web_tools ;
-        skos:prefLabel   "jsFiddle" ;
-        <http://xmlns.com/foaf/0.1/homepage>
-                <http://jsfiddle.net/> .
-
 tag:biodiversite_declin
         a                sl:Tag ;
         sl:creationDate  "2018-03-27" ;
@@ -9717,10 +9559,13 @@ tag:biodiversite_declin
         skos:broader     tag:biodiversite , tag:crise_ecologique , tag:grands_problemes ;
         skos:prefLabel   "Biodiversité : effondrement"@fr .
 
-tag:reddit  a            sl:Tag ;
-        sl:creationDate  "2021-01-26" ;
-        sl:creationTime  "2021-01-26T21:03:34Z" ;
-        skos:prefLabel   "Reddit" .
+tag:jsfiddle  a          sl:Tag ;
+        sl:creationDate  "2012-08-08" ;
+        sl:creationTime  "2012-08-08T15:58:18Z" ;
+        skos:broader     tag:javascript_tool , tag:sample_code , tag:web_tools ;
+        skos:prefLabel   "jsFiddle" ;
+        <http://xmlns.com/foaf/0.1/homepage>
+                <http://jsfiddle.net/> .
 
 tag:coree_du_sud  a     sl:Tag ;
         skos:altLabel   "South Korea" ;
@@ -9981,7 +9826,6 @@ tag:prelevements_obligatoires
 
 tag:hierarchical_classification
         a                sl:Tag ;
-        sl:comment       "the problem of classifying items into a hierarchy of classes."@en ;
         sl:creationDate  "2020-08-15" ;
         sl:creationTime  "2020-08-15T12:14:44Z" ;
         skos:broader     tag:hierarchies_in_ml , tag:statistical_classification ;
@@ -10097,13 +9941,6 @@ tag:public_key_cryptography_in_browsers
         sl:creationDate  "2015-09-17" ;
         sl:creationTime  "2015-09-17T23:01:45Z" ;
         skos:prefLabel   "public key cryptography in browsers" .
-
-tag:nlp_based_ir  a      sl:Tag ;
-        sl:creationDate  "2019-12-01" ;
-        sl:creationTime  "2019-12-01T23:30:40Z" ;
-        skos:altLabel    "AI & IR" ;
-        skos:broader     tag:information_retrieval , tag:nlp ;
-        skos:prefLabel   "NLP based IR" .
 
 tag:encelade  a         sl:Tag ;
         skos:altLabel   "Enceladus"@en ;
@@ -10267,15 +10104,10 @@ tag:nlp_conference  a    sl:Tag ;
         skos:broader     tag:ai_conference , tag:nlp_event ;
         skos:prefLabel   "NLP conference" .
 
-tag:procrastination  a   sl:Tag ;
-        sl:creationDate  "2011-01-08" ;
-        sl:creationTime  "2011-01-08T00:57:16Z" ;
-        skos:prefLabel   "Procrastination" .
-
 tag:genocide_rwandais
         a                sl:Tag ;
         sl:creationDate  "2006-12-30" ;
-        skos:broader     tag:genocide , tag:la_communaute_internationale_est_une_garce , tag:rwanda , <http://www.semanlink.net/tag/?and=genocide_rwandais&and=onu> ;
+        skos:broader     tag:genocide , tag:la_communaute_internationale_est_une_garce , tag:rwanda ;
         skos:prefLabel   "Génocide rwandais" .
 
 tag:subventions_agricoles
@@ -10335,13 +10167,13 @@ tag:royaume_uni  a      sl:Tag ;
         skos:prefLabel  "Royaume Uni"@fr .
 
 tag:kd_mkb  a            sl:Tag ;
-        sl:comment       "Cooperative Knowledge Distillation for Representation Learning Across Multiple Knowledge Bases\r\n\r\n- [GitHub](doc:2020/07/raphaelsty_kdmkb)\r\n- [Paper](doc:2020/12/knowledge_base_embedding_by_coo)"@en ;
+        sl:comment       "Cooperative Knowledge Distillation for Representation Learning Across Multiple Knowledge Bases\r\n\r\n[GitHub](doc:2020/07/raphaelsty_kdmkb)"@en ;
         sl:creationDate  "2020-04-22" ;
         sl:creationTime  "2020-04-22T17:49:30Z" ;
-        skos:altLabel    "KDMKB" , "KD-MKR" ;
+        skos:altLabel    "KD-MKR" , "KDMKB" ;
         skos:broader     tag:these_renault_embeddings ;
         skos:prefLabel   "KD-MKB" ;
-        skos:related     tag:coling2020 , tag:multiple_knowledge_bases .
+        skos:related     tag:multiple_knowledge_bases .
 
 tag:analytics  a         sl:Tag ;
         sl:creationDate  "2014-12-18" ;
@@ -10367,9 +10199,9 @@ tag:graph_embeddings  a  sl:Tag ;
         sl:comment       "Traditionally, networks are usually represented as adjacency matrices. This suffers from data sparsity and high-dimensionality. Network embeddings aim to **represent network\r\nvertices into a low-dimensional vector space, by preserving\r\nboth network topology structure and node content information**.\r\n\r\nAlgorithms are typically unsupervised\r\nand can be broadly classified into\r\nthree groups ([source](/doc/2019/07/_1901_00596_a_comprehensive_su)):\r\n\r\n- matrix factorization\r\n- random walks \r\n- deep learning approaches (graph neural networks - GNNs)\r\n\t- graph convolution networks (GraphSage)\r\n\t- graph attention networks, \r\n\t- graph auto-encoders (e.g., DNGR and SDNE)\r\n\t- graph generative networks, \r\n\t- graph spatial-temporal networks.\r\n\r\nNode embeddings (intuition: similar nodes should have similar vectors).\r\n\r\n- Laplacian EigenMap (an eigenvector based computation, OK when matrix is not too large)\r\n- LINE Large-scale Information Network Embedding, most cited paper at WWW2015; Breadth first search\r\n- DeepWalk (Perozzi et al. 2014) (the technique to learn word embeddings adapted to nodes: treating nodes as words and generating short random walks as sentences)\r\n- Node2Vec (2016) (mixed strategy)\r\n\r\netc.\r\n"@en ;
         sl:creationDate  "2018-01-27" ;
         sl:creationTime  "2018-01-27T15:18:45Z" ;
-        skos:altLabel    "Graph representation learning"@en , "Representation Learning on Networks"@en , "Network embeddings"@en , "Network Representation Learning"@en ;
+        skos:altLabel    "Graph representation learning" , "Representation Learning on Networks"@en , "Network embeddings" , "Network Representation Learning"@en ;
         skos:broader     tag:embeddings , tag:graphs_machine_learning ;
-        skos:prefLabel   "Graph Embeddings"@en ;
+        skos:prefLabel   "Graph Embeddings" ;
         skos:related     tag:graph_neural_networks .
 
 tag:pentagon  a         sl:Tag ;
@@ -10387,13 +10219,12 @@ tag:quizz  a             sl:Tag ;
 
 tag:attention_is_all_you_need
         a                sl:Tag ;
-        sl:comment       "[Vaswani, et al. 2017 paper](https://arxiv.org/abs/1706.03762): \"Attention is all you need\".\r\n\r\n[#seq2seq](/tag/sequence_to_sequence_learning) using only improved self-attention units (\"multi-head self-attention\r\nmechanism\"), without any RNN.\r\n\r\nBest explanation: [Transformers from scratch | Peter Bloem](doc:2019/08/transformers_from_scratch_%7C_pet)"@en ;
+        sl:comment       "[Vaswani, et al. 2017 paper](https://arxiv.org/abs/1706.03762): \"Attention is all you need\".\r\n\r\n[#seq2seq](/tag/sequence_to_sequence_learning) using only improved self-attention units (\"multi-head self-attention\r\nmechanism\"), without any RNN.\r\n"@en ;
         sl:creationDate  "2018-10-12" ;
         sl:creationTime  "2018-10-12T19:05:45Z" ;
         skos:altLabel    "Transformer"@en , "Transformers"@en , "Attention is All You Need"@en ;
-        skos:broader     tag:self_attention , tag:sequence_to_sequence_learning ;
-        skos:prefLabel   "Transformers"@en ;
-        skos:related     tag:nlp_google .
+        skos:broader     tag:self_attention , tag:nlp_google , tag:sequence_to_sequence_learning ;
+        skos:prefLabel   "Transformers"@en .
 
 tag:delicious_api  a     sl:Tag ;
         sl:creationDate  "2006-09-25" ;
@@ -10440,24 +10271,16 @@ tag:rdf_embeddings  a    sl:Tag ;
         skos:broader     tag:rdf , tag:knowledge_graph_embeddings , tag:embeddings ;
         skos:prefLabel   "RDF embeddings" .
 
-tag:cache  a             sl:Tag ;
-        sl:creationDate  "2008-11-18" ;
-        sl:creationTime  "2008-11-18T18:47:50Z" ;
-        skos:prefLabel   "Cache" .
-
 tag:docker_tomcat  a     sl:Tag ;
         sl:creationDate  "2016-04-06" ;
         sl:creationTime  "2016-04-06T14:58:58Z" ;
         skos:broader     tag:docker , tag:tomcat ;
         skos:prefLabel   "Docker-Tomcat" .
 
-tag:event_extraction  a  sl:Tag ;
-        sl:comment       "Extract structured information —“what is happening” and the persons/objects that are involved — from  unstructured text ([src](doc:2020/12/event_extraction_by_answering_))"@en ;
-        sl:creationDate  "2020-12-17" ;
-        sl:creationTime  "2020-12-17T14:17:20Z" ;
-        skos:broader     tag:nlp_problem ;
-        skos:prefLabel   "Event extraction" ;
-        skos:related     tag:intent_detection , tag:slot_tagging .
+tag:cache  a             sl:Tag ;
+        sl:creationDate  "2008-11-18" ;
+        sl:creationTime  "2008-11-18T18:47:50Z" ;
+        skos:prefLabel   "Cache" .
 
 tag:partial_differential_equations
         a                sl:Tag ;
@@ -11042,13 +10865,6 @@ tag:list_only_entity_linking
         skos:broader     tag:entity_linking ;
         skos:prefLabel   "List-only Entity Linking" .
 
-tag:economic_sanctions
-        a                sl:Tag ;
-        sl:creationDate  "2020-12-22" ;
-        sl:creationTime  "2020-12-22T21:04:49Z" ;
-        sl:describedBy   <https://en.wikipedia.org/wiki/Economic_sanctions> ;
-        skos:prefLabel   "Economic sanctions" .
-
 tag:julien_cardinal  a   sl:Tag ;
         sl:creationDate  "2017-07-21" ;
         sl:creationTime  "2017-07-21T02:04:55Z" ;
@@ -11291,7 +11107,7 @@ tag:language_models_knowledge
         a                sl:Tag ;
         sl:creationDate  "2020-07-11" ;
         sl:creationTime  "2020-07-11T15:10:34Z" ;
-        skos:broader     tag:knowledge_base , tag:language_model , tag:ai_knowledge_bases ;
+        skos:broader     tag:bert_kb , tag:knowledge_base , tag:language_model , tag:ai_knowledge_bases ;
         skos:prefLabel   "Language Models + Knowledge" ;
         skos:related     tag:kg_and_nlp .
 
@@ -11349,7 +11165,6 @@ tag:social_manipulation
         a                sl:Tag ;
         sl:creationDate  "2018-03-21" ;
         sl:creationTime  "2018-03-21T09:29:37Z" ;
-        skos:broader     tag:manipulation ;
         skos:prefLabel   "Social manipulation" .
 
 tag:norilsk  a           sl:Tag ;
@@ -11556,12 +11371,6 @@ tag:ina  a               sl:Tag ;
         sl:creationDate  "2009-06-25" ;
         sl:creationTime  "2009-06-25T08:23:19Z" ;
         skos:prefLabel   "INA" .
-
-tag:evangelistes  a      sl:Tag ;
-        sl:creationDate  "2020-08-22" ;
-        sl:creationTime  "2020-08-22T14:32:25Z" ;
-        skos:broader     tag:chretiente ;
-        skos:prefLabel   "Evangélistes" .
 
 tag:tim_berners_lee  a  sl:Tag ;
         sl:sameAs       <http://dbpedia.org/resource/Tim_Berners_Lee> ;
@@ -11792,7 +11601,7 @@ tag:sanjeev_arora  a     sl:Tag ;
         sl:creationDate  "2018-05-26" ;
         sl:creationTime  "2018-05-26T10:33:58Z" ;
         sl:describedBy   <https://en.wikipedia.org/wiki/Sanjeev_Arora> ;
-        skos:broader     tag:nlp_girls_and_guys ;
+        skos:broader     tag:technical_girls_and_guys , tag:nlp_girls_and_guys ;
         skos:prefLabel   "Sanjeev Arora" .
 
 tag:vie_extraterrestre
@@ -11886,7 +11695,6 @@ tag:microscope  a        sl:Tag ;
         skos:prefLabel   "Microscope" .
 
 tag:wikipedia2vec  a     sl:Tag ;
-        sl:comment       "Embeds words and entities (Wikipedia URLs) into a common space." ;
         sl:creationDate  "2020-09-02" ;
         sl:creationTime  "2020-09-02T16:44:12Z" ;
         skos:broader     tag:combining_word_and_entity_embeddings , tag:wikipedia ;
@@ -11949,7 +11757,6 @@ tag:css_html_templates
         skos:prefLabel  "css/html templates" .
 
 tag:macron  a            sl:Tag ;
-        sl:comment       "inactivisme climatique, procrastivaccination, quoi qu'il en coûte." ;
         sl:creationDate  "2016-06-05" ;
         sl:creationTime  "2016-06-05T00:20:23Z" ;
         skos:broader     tag:homme_politique ;
@@ -11993,7 +11800,6 @@ tag:linked_learning  a   sl:Tag ;
 tag:normale_sup  a       sl:Tag ;
         sl:creationDate  "2011-08-28" ;
         sl:creationTime  "2011-08-28T01:41:56Z" ;
-        skos:altLabel    "ENS"@fr ;
         skos:broader     tag:enseignement_superieur ;
         skos:prefLabel   "Normale Sup" .
 
@@ -12173,8 +11979,9 @@ tag:openai_gpt  a        sl:Tag ;
         sl:comment       "GPT: Generative Pre-Training\r\n"@en ;
         sl:creationDate  "2019-01-24" ;
         sl:creationTime  "2019-01-24T15:54:34Z" ;
-        skos:broader     tag:pre_trained_language_models , tag:openai , tag:attention_is_all_you_need ;
-        skos:prefLabel   "OpenAI GPT" .
+        skos:broader     tag:pre_trained_language_models , tag:openai ;
+        skos:prefLabel   "OpenAI GPT" ;
+        skos:related     tag:attention_is_all_you_need .
 
 tag:equateur  a          sl:Tag ;
         sl:creationDate  "2009-03-10" ;
@@ -12343,12 +12150,6 @@ tag:credit_default_swap
         skos:broader     tag:marches_financiers ;
         skos:prefLabel   "Credit default swap" .
 
-tag:smart_contracts  a   sl:Tag ;
-        sl:creationDate  "2016-06-20" ;
-        sl:creationTime  "2016-06-20T14:26:39Z" ;
-        skos:broader     tag:blockchain ;
-        skos:prefLabel   "Smart contracts" .
-
 tag:parthenogenese  a    sl:Tag ;
         sl:creationDate  "2020-04-08" ;
         sl:creationTime  "2020-04-08T21:08:53Z" ;
@@ -12365,6 +12166,12 @@ tag:linked_data_fragments
         skos:related     tag:ruben_verborgh ;
         <http://xmlns.com/foaf/0.1/homepage>
                 <http://linkeddatafragments.org/> .
+
+tag:smart_contracts  a   sl:Tag ;
+        sl:creationDate  "2016-06-20" ;
+        sl:creationTime  "2016-06-20T14:26:39Z" ;
+        skos:broader     tag:blockchain ;
+        skos:prefLabel   "Smart contracts" .
 
 tag:genetically_engineered_micro_and_nanodevices
         a               sl:Tag ;
@@ -12588,14 +12395,6 @@ tag:benjamin_franklin
         skos:broader     tag:grand_homme ;
         skos:prefLabel   "Benjamin Franklin" .
 
-tag:classification_relations_between_classes
-        a                sl:Tag ;
-        sl:creationDate  "2021-01-10" ;
-        sl:creationTime  "2021-01-10T12:13:08Z" ;
-        skos:altLabel    "Classification: relations between labels"@en ;
-        skos:broader     tag:statistical_classification ;
-        skos:prefLabel   "Classification: dependencies between labels"@en .
-
 tag:maladie  a          sl:Tag ;
         skos:broader    tag:medecine , tag:sante ;
         skos:prefLabel  "Maladie" .
@@ -12811,13 +12610,6 @@ tag:word_sense_disambiguation
         skos:broader     tag:lexical_ambiguity ;
         skos:prefLabel   "Word-sense disambiguation" ;
         skos:related     tag:entity_linking .
-
-tag:domain_specific_bert
-        a                sl:Tag ;
-        sl:creationDate  "2020-12-01" ;
-        sl:creationTime  "2020-12-01T15:09:10Z" ;
-        skos:broader     tag:bert ;
-        skos:prefLabel   "Domain-Specific BERT" .
 
 tag:javascript_frameork
         a                sl:Tag ;
@@ -13273,7 +13065,7 @@ tag:elections_americaines_2020
         a                sl:Tag ;
         sl:creationDate  "2020-11-04" ;
         sl:creationTime  "2020-11-04T17:49:53Z" ;
-        skos:broader     tag:2020 , tag:usa , tag:trump ;
+        skos:broader     tag:usa , tag:trump ;
         skos:prefLabel   "Elections américaines 2020" .
 
 tag:soap_vs_rest  a     sl:Tag ;
@@ -13346,18 +13138,18 @@ tag:piggy_bank  a       sl:Tag ;
         skos:broader    tag:ajax , tag:simile ;
         skos:prefLabel  "Piggy Bank" .
 
-tag:bernard_maris  a     sl:Tag ;
-        sl:creationDate  "2015-12-21" ;
-        sl:creationTime  "2015-12-21T13:59:54Z" ;
-        skos:prefLabel   "Bernard Maris" ;
-        skos:related     tag:charlie_hebdo .
-
 tag:markown_javascript
         a                sl:Tag ;
         sl:creationDate  "2015-10-10" ;
         sl:creationTime  "2015-10-10T20:58:25Z" ;
         skos:broader     tag:markdown ;
         skos:prefLabel   "Markown / Javascript" .
+
+tag:bernard_maris  a     sl:Tag ;
+        sl:creationDate  "2015-12-21" ;
+        sl:creationTime  "2015-12-21T13:59:54Z" ;
+        skos:prefLabel   "Bernard Maris" ;
+        skos:related     tag:charlie_hebdo .
 
 tag:crime_contre_l_humanite
         a               sl:Tag ;
@@ -13490,11 +13282,6 @@ tag:wikidata_rdf  a      sl:Tag ;
         sl:creationTime  "2013-09-12T00:07:47Z" ;
         skos:broader     tag:wikidata , tag:rdf ;
         skos:prefLabel   "Wikidata/RDF" .
-
-tag:centrales_nucleaires
-        a               sl:Tag ;
-        skos:broader    tag:industrie_nucleaire ;
-        skos:prefLabel  "Centrales nucléaires" .
 
 tag:ecologie  a         sl:Tag ;
         skos:broader    tag:nature , tag:environnement , tag:grands_problemes ;
@@ -13797,7 +13584,6 @@ tag:propriete_intellectuelle
 tag:sw_at_renault  a     sl:Tag ;
         sl:creationDate  "2007-04-03" ;
         sl:creationTime  "2007-04-03T22:45:49Z" ;
-        skos:altLabel    "Semantic Web@Renault" ;
         skos:broader     tag:semantic_web ;
         skos:prefLabel   "SW at Renault" .
 
@@ -13878,16 +13664,6 @@ tag:chomage  a          sl:Tag ;
 tag:3d  a               sl:Tag ;
         skos:prefLabel  "3D" .
 
-tag:patrick_boucheron
-        a                sl:Tag ;
-        sl:comment       "L'histoire fait dates, sur arte.tv"@en ;
-        sl:creationDate  "2020-11-22" ;
-        sl:creationTime  "2020-11-22T15:01:45Z" ;
-        sl:describedBy   <https://fr.wikipedia.org/wiki/Patrick_Boucheron> ;
-        skos:broader     tag:historien ;
-        skos:prefLabel   "Patrick Boucheron" ;
-        skos:related     tag:arte .
-
 tag:good  a             sl:Tag ;
         skos:broader    tag:i_like ;
         skos:prefLabel  "Good" .
@@ -13925,13 +13701,6 @@ tag:leopard  a           sl:Tag ;
         skos:broader     tag:mac_os_x ;
         skos:prefLabel   "Leopard" .
 
-tag:maladie_contagieuse
-        a                sl:Tag ;
-        sl:creationDate  "2007-12-06" ;
-        sl:creationTime  "2007-12-06T21:40:20Z" ;
-        skos:broader     tag:maladie ;
-        skos:prefLabel   "Maladie contagieuse" .
-
 tag:nlp_topic_extraction
         a                sl:Tag ;
         sl:comment       "“the automatic\r\nselection of important and topical phrases\r\nfrom the body of a document” (Turney, 2000)"@en ;
@@ -13940,11 +13709,18 @@ tag:nlp_topic_extraction
         skos:altLabel    "Keyphrase extraction"@en , "Topic extraction"@en , "Keyword extraction"@en ;
         skos:broader     tag:keywords , tag:automatic_tagging , tag:nlp_problem , tag:phrases_nlp ;
         skos:prefLabel   "Keyword/keyphrase extraction"@en ;
-        skos:related     tag:phrase_mining , tag:phrase_embeddings , tag:topic_modeling , tag:automatic_summarization .
+        skos:related     tag:phrase_embeddings , tag:topic_modeling , tag:automatic_summarization .
 
 tag:sportif  a          sl:Tag ;
         skos:broader    tag:sport ;
         skos:prefLabel  "Sportif"@fr .
+
+tag:maladie_contagieuse
+        a                sl:Tag ;
+        sl:creationDate  "2007-12-06" ;
+        sl:creationTime  "2007-12-06T21:40:20Z" ;
+        skos:broader     tag:maladie ;
+        skos:prefLabel   "Maladie contagieuse" .
 
 tag:logic_and_semantic_web
         a                sl:Tag ;
@@ -13952,15 +13728,6 @@ tag:logic_and_semantic_web
         sl:creationTime  "2010-07-19T12:12:23Z" ;
         skos:broader     tag:logic , tag:semantic_web ;
         skos:prefLabel   "Logic and semantic web" .
-
-tag:commandant_cousteau
-        a                sl:Tag ;
-        sl:comment       "Le Commandant Cousteau : tout commença dans l'eau ([Anagramme](tag:anagramme))" ;
-        sl:creationDate  "2021-01-20" ;
-        sl:creationTime  "2021-01-20T22:29:22Z" ;
-        sl:describedBy   <https://fr.wikipedia.org/wiki/Jacques-Yves_Cousteau> ;
-        skos:prefLabel   "Commandant Cousteau" ;
-        skos:related     tag:mer .
 
 tag:pfizer  a            sl:Tag ;
         sl:creationDate  "2010-08-24" ;
@@ -13971,12 +13738,6 @@ tag:pfizer  a            sl:Tag ;
 tag:chine_europe  a     sl:Tag ;
         skos:broader    tag:chine , tag:europe ;
         skos:prefLabel  "Chine-Europe" .
-
-tag:bon_prof  a          sl:Tag ;
-        sl:creationDate  "2021-01-12" ;
-        sl:creationTime  "2021-01-12T12:09:47Z" ;
-        skos:broader     tag:education ;
-        skos:prefLabel   "Bon prof" .
 
 tag:innovation  a       sl:Tag ;
         skos:prefLabel  "Innovation" .
@@ -14093,9 +13854,9 @@ tag:okapi_bm25  a        sl:Tag ;
         sl:creationDate  "2017-06-14" ;
         sl:creationTime  "2017-06-14T00:00:07Z" ;
         sl:describedBy   <https://en.wikipedia.org/wiki/Okapi_BM25> ;
-        skos:altLabel    "Okapi BM25"@en ;
+        skos:altLabel    "BM25"@en ;
         skos:broader     tag:probabilistic_relevance_model , tag:ranking_information_retrieval ;
-        skos:prefLabel   "BM25"@en ;
+        skos:prefLabel   "Okapi BM25"@fr ;
         skos:related     tag:bag_of_words , tag:tf_idf .
 
 tag:yves_raymond  a      sl:Tag ;
@@ -14495,13 +14256,12 @@ tag:millennium_goal  a  sl:Tag ;
 
 tag:knowledge_augmented_language_models
         a                sl:Tag ;
-        sl:comment       "[biblio](doc:2020/07/2004_07202_entities_as_expert): Ahn\r\net al., 2016; Yang et al., 2016; Logan et al., 2019;\r\nZhang et al., 2019; Levine et al., 2019; Xiong\r\net al., 2019a; Peters et al., 2019; Poerner et al.,\r\n2019; Wang et al., 2020"@en ;
+        sl:comment       "[biblio](doc:2020/07/2004_07202_entities_as_expert): Ahn\r\net al., 2016; Yang et al., 2016; Logan et al., 2019;\r\nZhang et al., 2019; Levine et al., 2019; Xiong\r\net al., 2019a; Peters et al., 2019; Poerner et al.,\r\n2019; Wang et al., 2020)"@en ;
         sl:creationDate  "2020-07-11" ;
         sl:creationTime  "2020-07-11T16:04:53Z" ;
         skos:altLabel    "Injecting knowledge into LMs"@en , "Injecting knowledge into Language Models"@en , "KG-Augmented LMs" ;
-        skos:broader     tag:language_models_knowledge ;
-        skos:prefLabel   "Knowledge-augmented Language Models"@en ;
-        skos:related     tag:neural_models_for_information_retrieval .
+        skos:broader     tag:nlp_using_knowledge_graphs , tag:language_models_knowledge ;
+        skos:prefLabel   "Knowledge-augmented language models" .
 
 tag:intervention_francaise_au_mali
         a                sl:Tag ;
@@ -14548,13 +14308,6 @@ tag:cinema_africain  a   sl:Tag ;
         skos:broader     tag:cinema , tag:art_d_afrique ;
         skos:prefLabel   "Cinéma africain" .
 
-tag:nlp_task_as_qa_problem
-        a                sl:Tag ;
-        sl:creationDate  "2021-01-26" ;
-        sl:creationTime  "2021-01-26T15:19:38Z" ;
-        skos:broader     tag:nlp_problem , tag:question_answering ;
-        skos:prefLabel   "NLP task as a QA problem"@en .
-
 tag:peter_patel_schneider
         a                sl:Tag ;
         sl:creationDate  "2011-02-14" ;
@@ -14585,17 +14338,12 @@ tag:qotd  a              sl:Tag ;
 tag:dictionnaire  a     sl:Tag ;
         skos:prefLabel  "Dictionnaire" .
 
-tag:2020  a              sl:Tag ;
-        sl:creationDate  "2020-12-28" ;
-        sl:creationTime  "2020-12-28T19:11:40Z" ;
-        skos:prefLabel   "2020" .
-
 tag:uncertainty_in_deep_learning
         a                sl:Tag ;
         sl:creationDate  "2018-11-05" ;
         sl:creationTime  "2018-11-05T09:39:06Z" ;
-        skos:broader     tag:uncertainty_reasoning , tag:accountable_ai , tag:deep_learning ;
-        skos:prefLabel   "Uncertainty in Deep Learning"@en ;
+        skos:broader     tag:accountable_ai , tag:uncertainty_reasoning , tag:deep_learning ;
+        skos:prefLabel   "Uncertainty in Deep Learning" ;
         skos:related     tag:accountable_ai .
 
 tag:reinhard_mey  a      sl:Tag ;
@@ -14642,7 +14390,7 @@ tag:le_gouvernement_chirac_est_trop_con
 tag:nlp_event  a         sl:Tag ;
         sl:creationDate  "2018-07-26" ;
         sl:creationTime  "2018-07-26T00:27:53Z" ;
-        skos:broader     tag:nlp , tag:ai_event ;
+        skos:broader     tag:nlp ;
         skos:prefLabel   "NLP event" .
 
 tag:rebellion_touaregue
@@ -15243,7 +14991,7 @@ tag:openlink  a          sl:Tag ;
         sl:sameAs        <http://dbpedia.org/resource/OpenLink_Software> ;
         skos:broader     tag:semantic_web , tag:semantic_web_company ;
         skos:prefLabel   "OpenLink Software" ;
-        skos:related     tag:kingsley_idehen , tag:orri_erling , tag:yrjana_rankka ;
+        skos:related     tag:kingsley_idehen , tag:orri_erling ;
         <http://xmlns.com/foaf/0.1/homepage>
                 <http://www.openlinksw.com/> .
 
@@ -15272,11 +15020,6 @@ tag:fibo  a              sl:Tag ;
 tag:rome  a             sl:Tag ;
         skos:broader    tag:italie , tag:ville ;
         skos:prefLabel  "Rome"@fr .
-
-tag:retard_technologique_europeen
-        a               sl:Tag ;
-        skos:broader    tag:europe , tag:technologie ;
-        skos:prefLabel  "Retard technologique européen" .
 
 tag:w3c_note  a          sl:Tag ;
         sl:creationDate  "2008-09-01" ;
@@ -15481,12 +15224,6 @@ tag:twitterature  a      sl:Tag ;
         skos:broader     tag:twitter ;
         skos:prefLabel   "Twittérature" .
 
-tag:dialogs_in_javascript
-        a                sl:Tag ;
-        sl:creationDate  "2006-10-11" ;
-        skos:broader     tag:javascript ;
-        skos:prefLabel   "Dialogs in javascript" .
-
 tag:egypte_antique  a   sl:Tag ;
         skos:broader    tag:antiquite_africaine , tag:egypte , tag:antiquite ;
         skos:prefLabel  "Egypte antique"@fr .
@@ -15497,10 +15234,11 @@ tag:street_art  a        sl:Tag ;
         skos:broader     tag:art ;
         skos:prefLabel   "Street art" .
 
-tag:signal  a            sl:Tag ;
-        sl:creationDate  "2021-01-12" ;
-        sl:creationTime  "2021-01-12T02:33:54Z" ;
-        skos:prefLabel   "Signal" .
+tag:dialogs_in_javascript
+        a                sl:Tag ;
+        sl:creationDate  "2006-10-11" ;
+        skos:broader     tag:javascript ;
+        skos:prefLabel   "Dialogs in javascript" .
 
 tag:sahel  a            sl:Tag ;
         sl:sameAs       <http://dbpedia.org/resource/Sahel> ;
@@ -15655,9 +15393,9 @@ tag:language_model  a    sl:Tag ;
         sl:creationDate  "2012-03-24" ;
         sl:creationTime  "2012-03-24T09:01:10Z" ;
         sl:describedBy   <https://en.wikipedia.org/wiki/Language_model> ;
-        skos:altLabel    "Statistical Language Model"@en , "LM"@en , "Language Modeling"@en ;
+        skos:altLabel    "Statistical Language Model" , "Language Modeling" ;
         skos:broader     tag:unsupervised_machine_learning , tag:nlp_techniques ;
-        skos:prefLabel   "Language model"@en ;
+        skos:prefLabel   "Language model"@fr ;
         skos:related     tag:word_embedding , tag:representation_learning_for_nlp .
 
 tag:blogs_le_monde  a   sl:Tag ;
@@ -16201,10 +15939,8 @@ tag:dvd  a              sl:Tag ;
 
 tag:metropolitan_museum_of_art
         a               sl:Tag ;
-        sl:describedBy  <https://en.wikipedia.org/wiki/Metropolitan_Museum_of_Art> ;
-        skos:altLabel   "The MET"@en ;
         skos:broader    tag:new_york , tag:musee ;
-        skos:prefLabel  "Metropolitan Museum of Art"@en .
+        skos:prefLabel  "Metropolitan Museum of Art" .
 
 tag:nasca  a            sl:Tag ;
         skos:broader    tag:civilisations_precolombiennes , tag:perou ;
@@ -16264,16 +16000,6 @@ tag:distilbert  a        sl:Tag ;
         sl:creationTime  "2020-02-14T00:26:15Z" ;
         skos:broader     tag:bert , tag:knowledge_distillation ;
         skos:prefLabel   "DistilBERT" .
-
-tag:classical_mechanics
-        a                sl:Tag ;
-        sl:creationDate  "2021-01-13" ;
-        sl:creationTime  "2021-01-13T11:44:34Z" ;
-        sl:describedBy   <https://en.wikipedia.org/wiki/Classical_mechanics> ;
-        skos:altLabel    "Mécanique classique"@fr ;
-        skos:broader     tag:physique ;
-        skos:prefLabel   "Classical mechanics"@en ;
-        skos:related     tag:newton .
 
 tag:activity_streams  a  sl:Tag ;
         sl:creationDate  "2014-10-23" ;
@@ -16338,12 +16064,6 @@ tag:ondes_gravitationnelles
         sl:creationTime  "2017-10-16T18:01:17Z" ;
         skos:broader     tag:gravitation ;
         skos:prefLabel   "Ondes gravitationnelles" .
-
-tag:fps_tweet  a         sl:Tag ;
-        sl:creationDate  "2020-12-03" ;
-        sl:creationTime  "2020-12-03T01:29:37Z" ;
-        skos:broader     tag:fps , tag:tweet ;
-        skos:prefLabel   "fps' tweet" .
 
 tag:indo_europeen  a    sl:Tag ;
         skos:broader    tag:antiquite , tag:langues ;
@@ -16714,14 +16434,6 @@ tag:michael_hausenblas
         <http://xmlns.com/foaf/0.1/weblog>
                 <http://mhausenblas.blogr.com/> .
 
-tag:knowledge_graph_augmented_language_models
-        a                sl:Tag ;
-        sl:creationDate  "2020-12-12" ;
-        sl:creationTime  "2020-12-12T13:33:08Z" ;
-        skos:altLabel    "Knowledge Graph-augmented Language Models"@en , "KG-augmented LMs"@en ;
-        skos:broader     tag:knowledge_augmented_language_models , tag:nlp_using_knowledge_graphs , tag:knowledge_graph_deep_learning ;
-        skos:prefLabel   "KG-augmented Language Models"@en .
-
 tag:open_knowledge_foundation
         a                sl:Tag ;
         sl:creationDate  "2013-09-02" ;
@@ -16858,7 +16570,7 @@ tag:eurogroupe  a        sl:Tag ;
 tag:yves_roth  a         sl:Tag ;
         sl:creationDate  "2014-11-10" ;
         sl:creationTime  "2014-11-10T12:43:58Z" ;
-        skos:broader     tag:bon_prof , tag:souvenirs , tag:lycee_alain ;
+        skos:broader     tag:souvenirs , tag:lycee_alain ;
         skos:prefLabel   "Yves Roth" .
 
 tag:juif  a             sl:Tag ;
@@ -17239,6 +16951,12 @@ tag:haoussa  a          sl:Tag ;
         skos:broader    tag:afrique_de_l_ouest , tag:peuples ;
         skos:prefLabel  "Haoussa" .
 
+tag:ai_ir  a             sl:Tag ;
+        sl:creationDate  "2019-12-01" ;
+        sl:creationTime  "2019-12-01T23:30:40Z" ;
+        skos:broader     tag:information_retrieval , tag:artificial_intelligence ;
+        skos:prefLabel   "AI & IR" .
+
 tag:provocative_idea  a  sl:Tag ;
         sl:creationDate  "2011-12-17" ;
         sl:creationTime  "2011-12-17T15:39:07Z" ;
@@ -17565,7 +17283,7 @@ tag:c2gweb_and_product_description
         a                sl:Tag ;
         sl:creationDate  "2013-01-24" ;
         sl:creationTime  "2013-01-24T01:21:29Z" ;
-        skos:broader     tag:c2gweb_seo , tag:c2gweb , tag:product_description , tag:e_commerce_data ;
+        skos:broader     tag:c2gweb_seo , tag:c2gweb , tag:product_description ;
         skos:prefLabel   "C2GWeb and Product description" ;
         skos:related     tag:configuration_ontology .
 
@@ -17746,12 +17464,6 @@ tag:semantic_web_and_ai
         skos:broader     tag:semantic_web , tag:artificial_intelligence ;
         skos:prefLabel   "Semantic web and AI" .
 
-tag:stochastic_parrots
-        a                sl:Tag ;
-        sl:creationDate  "2021-01-23" ;
-        sl:creationTime  "2021-01-23T16:49:13Z" ;
-        skos:prefLabel   "Stochastic Parrots" .
-
 tag:jean_claude_juncker
         a                sl:Tag ;
         sl:creationDate  "2007-09-18" ;
@@ -17807,9 +17519,9 @@ tag:these_renault_embeddings
         <http://www.semanlink.net/2006/09/semanlink-config-schema#publish>
                 "true" ;
         skos:altLabel    "Thèse IRIT-Renault" ;
-        skos:broader     tag:knowledge_graph_deep_learning , tag:irit ;
+        skos:broader     tag:knowledge_graph_deep_learning ;
         skos:prefLabel   "Thèse IRIT-Renault NLP-KB"@fr ;
-        skos:related     tag:knowledge_graph_embeddings , tag:combining_word_and_entity_embeddings , tag:irit , tag:nlp_using_knowledge , tag:embeddings , tag:jose_moreno .
+        skos:related     tag:text_embeddings , tag:knowledge_graph_embeddings , tag:combining_word_and_entity_embeddings , tag:irit , tag:embeddings .
 
 tag:feed_aggregator  a  sl:Tag ;
         skos:prefLabel  "Feed aggregator" .
@@ -17834,7 +17546,7 @@ tag:fichage_genetique
 
 tag:knowledge_graph_embeddings
         a                sl:Tag ;
-        sl:comment       "How can we use knowledge graph in computing?\r\n\r\nA knowledge graph is a symbolic and logical system but applications often involve numerical computing in continuous spaces.  Formal logic is neither tractable nor robust when dealing with knowledge graph. Hence the idea of Knowledge graph embeddings.\r\n\r\nGenerally, each entity is represented\r\nas a point in that space while each relation is interpreted as an operation over entity embeddings (eg. in Bordes et al. \"[TransE](tag:transe)\", a translation). The embedding representations are usually learnt by minimizing a global loss function involving all entities and relations so that each entity\r\nembedding encodes both local and global connectivity patterns of the original graph.\r\n"@en ;
+        sl:comment       "How can we use knowledge graph in computing?\r\n\r\nA knowledge graph is a symbolic and logical system but applications often involve numerical computing in continuous spaces.  Formal logic is neither tractable nor robust when dealing with knowledge graph. Hence the idea of Knowledge graph embeddings.\r\n\r\nGenerally, each entity is represented\r\nas a point in that space while each relation is interpreted as an operation over entity embeddings (eg. in Bordes et al. \"transE\", a translation). The embedding representations are usually learnt by minimizing a global loss function involving all entities and relations so that each entity\r\nembedding encodes both local and global connectivity patterns of the original graph.\r\n"@en ;
         sl:creationDate  "2018-01-03" ;
         sl:creationTime  "2018-01-03T16:42:41Z" ;
         skos:altLabel    "Knowledge graph embedding"@en , "KG embedding"@en , "KGE"@en ;
@@ -17997,8 +17709,7 @@ tag:bug_brother  a       sl:Tag ;
 
 tag:princeton  a        sl:Tag ;
         skos:broader    tag:universites_americaines ;
-        skos:prefLabel  "Princeton" ;
-        skos:related    tag:sanjeev_arora .
+        skos:prefLabel  "Princeton" .
 
 tag:hydra  a             sl:Tag ;
         sl:comment       "Hypermedia driven web APIs.<br/>\r\nThe basic idea behind Hydra is to provide a <b>vocabulary which enables a server to advertise valid state transitions to a client</b>. A client can then use this information to construct HTTP requests which modify the server’s state so that a certain desired goal is achieved. Since all the information about the valid state transitions is exchanged in a machine-processable way at runtime instead of being hardcoded into the client at design time, clients can be decoupled from the server and adapt to changes more easily."@en ;
@@ -18110,14 +17821,6 @@ tag:embeddings_in_nlp
         skos:broader     tag:embeddings ;
         skos:prefLabel   "Embeddings in NLP" ;
         skos:related     tag:meaning_in_nlp .
-
-tag:rdf4j  a             sl:Tag ;
-        sl:comment       "Replaces [Sesame](tag:sesame)" ;
-        sl:creationDate  "2021-01-05" ;
-        sl:creationTime  "2021-01-05T14:25:39Z" ;
-        sl:describedBy   <https://rdf4j.org/> ;
-        skos:broader     tag:rdf_framework ;
-        skos:prefLabel   "RDF4J" .
 
 tag:regroupement_familial
         a                sl:Tag ;
@@ -18263,12 +17966,6 @@ tag:gaz_de_schiste  a    sl:Tag ;
         skos:broader     tag:energies_fossiles_non_conventionnelles ;
         skos:prefLabel   "Gaz de schiste" .
 
-tag:microsoft_azure  a   sl:Tag ;
-        sl:creationDate  "2020-12-19" ;
-        sl:creationTime  "2020-12-19T11:28:32Z" ;
-        skos:broader     tag:microsoft ;
-        skos:prefLabel   "Microsoft Azure" .
-
 tag:first_americans  a  sl:Tag ;
         sl:describedBy  <https://en.wikipedia.org/wiki/Indigenous_peoples_of_the_Americas> ;
         skos:broader    tag:civilisations_precolombiennes , tag:paleoanthropology ;
@@ -18334,13 +18031,6 @@ tag:gmail  a             sl:Tag ;
 tag:thumbnails  a        sl:Tag ;
         sl:creationDate  "2006-10-11" ;
         skos:prefLabel   "Thumbnails" .
-
-tag:yuval_noah_harari
-        a                sl:Tag ;
-        sl:creationDate  "2021-01-11" ;
-        sl:creationTime  "2021-01-11T22:40:53Z" ;
-        sl:describedBy   <https://en.wikipedia.org/wiki/Yuval_Noah_Harari> ;
-        skos:prefLabel   "Yuval Noah Harari" .
 
 tag:peace_corps  a      sl:Tag ;
         skos:broader    tag:usa , tag:cooperation ;
@@ -18430,7 +18120,6 @@ tag:atoll  a             sl:Tag ;
 tag:trump  a             sl:Tag ;
         sl:creationDate  "2016-07-24" ;
         sl:creationTime  "2016-07-24T14:08:26Z" ;
-        skos:broader     tag:president_des_usa ;
         skos:prefLabel   "Trump" .
 
 tag:diplomatie_americaine
@@ -18481,14 +18170,6 @@ tag:universal_decimal_classification
 tag:classification_systems
         a               sl:Tag ;
         skos:prefLabel  "Classification systems" .
-
-tag:flashtext_algorithm
-        a                sl:Tag ;
-        sl:creationDate  "2020-12-16" ;
-        sl:creationTime  "2020-12-16T00:02:27Z" ;
-        skos:broader     tag:string_searching_algorithm ;
-        skos:prefLabel   "FlashText algorithm" ;
-        skos:related     tag:aho_corasick_algorithm .
 
 tag:ontologies  a       sl:Tag ;
         sl:comment      "An ontology is a specification of a conceptualization." ;
@@ -18563,8 +18244,7 @@ tag:henri_bergius  a     sl:Tag ;
                 <http://bergie.iki.fi/> .
 
 tag:sesame  a           sl:Tag ;
-        sl:comment      "Replaced by [RDF4J](tag:rdf4j)" ;
-        skos:broader    tag:rdf_framework , tag:rdf4j ;
+        skos:broader    tag:rdf_framework ;
         skos:prefLabel  "Sesame" .
 
 tag:contextualised_word_representations
@@ -18653,7 +18333,7 @@ tag:de_broglie  a       sl:Tag ;
         skos:prefLabel  "de Broglie" .
 
 tag:francafrique  a     sl:Tag ;
-        skos:broader    tag:france_afrique ;
+        skos:broader    tag:afrique , tag:france , tag:france_afrique ;
         skos:prefLabel  "Françafrique"@fr .
 
 tag:ford  a              sl:Tag ;
@@ -18682,7 +18362,6 @@ tag:especes_menacees  a  sl:Tag ;
 tag:gilets_jaunes  a     sl:Tag ;
         sl:creationDate  "2018-12-06" ;
         sl:creationTime  "2018-12-06T09:56:29Z" ;
-        skos:broader     tag:societe_francaise , tag:france_delabrement ;
         skos:prefLabel   "Gilets jaunes" .
 
 tag:plantu  a           sl:Tag ;
@@ -18777,9 +18456,8 @@ tag:generative_model  a  sl:Tag ;
         sl:creationDate  "2017-08-15" ;
         sl:creationTime  "2017-08-15T21:01:08Z" ;
         sl:describedBy   <https://en.wikipedia.org/wiki/Generative_model> ;
-        skos:altLabel    "Generative modeling"@en ;
         skos:broader     tag:machine_learning_techniques ;
-        skos:prefLabel   "Generative model"@en .
+        skos:prefLabel   "Generative model"@fr .
 
 tag:agriculture_industrielle
         a                sl:Tag ;
@@ -18891,7 +18569,6 @@ tag:tools  a            sl:Tag ;
 
 tag:transfer_learning
         a                sl:Tag ;
-        sl:comment       "performance on a target task is improved by leveraging model parameters learned on a separate but related source task"@en ;
         sl:creationDate  "2017-09-18" ;
         sl:creationTime  "2017-09-18T11:55:58Z" ;
         sl:describedBy   <https://en.wikipedia.org/wiki/Transfer_learning> ;
@@ -18916,7 +18593,7 @@ tag:probabilistic_graphical_models
 
 tag:question_answering
         a                sl:Tag ;
-        sl:comment       "For a description of the variants of this task, see this [paper](/doc/2020/02/how_much_knowledge_can_you_pack)\r\n\r\n- reading comprehesion\r\n- open-domain QA\r\n    - open-book exam\r\n    - closed-book exam\r\n\r\n> Many real world question answering systems start by retrieving a set of support documents from a\r\nlarge source of knowledge such as Wikipedia. Then, a finer-grained model processes these documents\r\nto extract the answer. [src](doc:2020/12/2012_04584_distilling_knowled)"@en ;
+        sl:comment       "For a description of the variants of this task, see this [paper](/doc/2020/02/how_much_knowledge_can_you_pack)\r\n\r\n- reading comprehesion\r\n- open-domain QA\r\n    - open-book exam\r\n    - closed-book exam" ;
         sl:creationDate  "2018-06-21" ;
         sl:creationTime  "2018-06-21T12:55:54Z" ;
         skos:altLabel    "QA"@en ;
@@ -19050,12 +18727,6 @@ tag:nick_clegg  a        sl:Tag ;
         sl:sameAs        <http://dbpedia.org/resource/Nick_Clegg> ;
         skos:broader     tag:grande_bretagne , tag:homme_politique ;
         skos:prefLabel   "Nick Clegg"@fr .
-
-tag:macronie  a          sl:Tag ;
-        sl:creationDate  "2020-12-19" ;
-        sl:creationTime  "2020-12-19T17:16:43Z" ;
-        skos:broader     tag:macron ;
-        skos:prefLabel   "Macronie" .
 
 tag:sonia_braga  a      sl:Tag ;
         skos:broader    tag:bresil , tag:actrice ;
@@ -19442,7 +19113,7 @@ tag:covid19_conneries_gouvernementales
         sl:creationDate  "2020-04-09" ;
         sl:creationTime  "2020-04-09T16:06:00Z" ;
         skos:broader     tag:coronavirus ;
-        skos:prefLabel   "Covid19 : incurie gouvernementale"@fr .
+        skos:prefLabel   "Covid19: incompétence gouvernementale"@fr .
 
 tag:bi_lstm  a           sl:Tag ;
         sl:comment       "instead of just processing the words in a sentence from left to right, also go from right to left, allowing later words to help disambiguate the meaning of earlier words and phrases"@en ;
@@ -19684,21 +19355,6 @@ tag:la_communaute_internationale_est_une_garce
 tag:nationalisme  a     sl:Tag ;
         skos:prefLabel  "Nationalisme" .
 
-tag:deep_generative_modeling
-        a                sl:Tag ;
-        sl:creationDate  "2021-01-12" ;
-        sl:creationTime  "2021-01-12T17:14:14Z" ;
-        skos:broader     tag:generative_model ;
-        skos:prefLabel   "Deep Generative Modeling" .
-
-tag:quantum_neuromorphic_computing
-        a                sl:Tag ;
-        sl:creationDate  "2021-01-04" ;
-        sl:creationTime  "2021-01-04T09:37:30Z" ;
-        skos:broader     tag:quantum_computing ;
-        skos:prefLabel   "Quantum neuromorphic computing" ;
-        skos:related     tag:julie_grollier .
-
 tag:plutonium  a         sl:Tag ;
         sl:creationDate  "2016-02-09" ;
         sl:creationTime  "2016-02-09T23:36:45Z" ;
@@ -19825,11 +19481,6 @@ tag:dropbox  a           sl:Tag ;
         sl:creationTime  "2013-03-13T19:30:22Z" ;
         skos:prefLabel   "Dropbox" .
 
-tag:chine_leadership  a  sl:Tag ;
-        sl:creationDate  "2020-04-04" ;
-        sl:creationTime  "2020-04-04T10:39:07Z" ;
-        skos:prefLabel   "Chine: leadership" .
-
 tag:vary_header  a       sl:Tag ;
         sl:creationDate  "2015-05-14" ;
         sl:creationTime  "2015-05-14T15:23:33Z" ;
@@ -19858,12 +19509,6 @@ tag:neuroscience  a      sl:Tag ;
         sl:describedBy   <https://en.wikipedia.org/wiki/Neuroscience> ;
         skos:broader     tag:cerveau ;
         skos:prefLabel   "Neuroscience"@fr .
-
-tag:punition_des_mechants
-        a                sl:Tag ;
-        sl:creationDate  "2020-12-14" ;
-        sl:creationTime  "2020-12-14T16:37:59Z" ;
-        skos:prefLabel   "Punition des méchants" .
 
 tag:1984  a              sl:Tag ;
         sl:creationDate  "2006-10-18" ;
@@ -20648,11 +20293,6 @@ tag:bulgarie  a         sl:Tag ;
         skos:broader    tag:pays_d_europe , tag:europe ;
         skos:prefLabel  "Bulgarie" .
 
-tag:responsabilite  a    sl:Tag ;
-        sl:creationDate  "2020-12-14" ;
-        sl:creationTime  "2020-12-14T16:37:41Z" ;
-        skos:prefLabel   "Responsabilité" .
-
 tag:owled  a             sl:Tag ;
         sl:creationDate  "2007-07-13" ;
         sl:creationTime  "2007-07-13T18:49:36Z" ;
@@ -20922,8 +20562,8 @@ tag:artificial_intelligence
         a                sl:Tag ;
         sl:creationDate  "2009-01-06" ;
         sl:creationTime  "2009-01-06T22:30:58Z" ;
-        skos:altLabel    "IA"@fr , "Intelligence Artificielle"@fr , "AI"@en ;
-        skos:broader     tag:informatique , tag:intelligence ;
+        skos:altLabel    "IA"@fr , "AI"@en ;
+        skos:broader     tag:intelligence , tag:informatique ;
         skos:prefLabel   "Artificial Intelligence"@en ;
         skos:related     tag:reseaux_bayesiens .
 
@@ -21003,13 +20643,6 @@ tag:civilisation_de_l_indus
         a               sl:Tag ;
         skos:broader    tag:antiquite_de_l_inde , tag:antiquite_du_pakistan ;
         skos:prefLabel  "Civilisation de l'Indus"@fr .
-
-tag:short_sales  a       sl:Tag ;
-        sl:creationDate  "2010-05-21" ;
-        sl:creationTime  "2010-05-21T21:24:10Z" ;
-        skos:altLabel    "Ventes à découvert"@fr , "Short sales"@en ;
-        skos:broader     tag:finance , tag:speculation , tag:marches_financiers ;
-        skos:prefLabel   "Short selling"@en .
 
 tag:meta_reinforcement_learning
         a                sl:Tag ;
@@ -21232,12 +20865,6 @@ tag:subtitles  a         sl:Tag ;
 tag:sport  a            sl:Tag ;
         skos:prefLabel  "Sport"@fr .
 
-tag:film_cubain  a       sl:Tag ;
-        sl:creationDate  "2020-06-13" ;
-        sl:creationTime  "2020-06-13T19:14:08Z" ;
-        skos:broader     tag:film , tag:cuba ;
-        skos:prefLabel   "Film cubain" .
-
 tag:googling  a          sl:Tag ;
         sl:creationDate  "2007-12-20" ;
         sl:creationTime  "2007-12-20T15:25:11Z" ;
@@ -21257,11 +20884,11 @@ tag:the_web_is_dying  a  sl:Tag ;
         skos:prefLabel   "The Web is dying" ;
         skos:related     tag:the_web_sucks .
 
-tag:kd_mkb_paper  a      sl:Tag ;
-        sl:creationDate  "2020-07-03" ;
-        sl:creationTime  "2020-07-03T10:12:31Z" ;
-        skos:broader     tag:kd_mkb , tag:coling2020 , tag:raphaelsty ;
-        skos:prefLabel   "KD-MKB paper" .
+tag:film_cubain  a       sl:Tag ;
+        sl:creationDate  "2020-06-13" ;
+        sl:creationTime  "2020-06-13T19:14:08Z" ;
+        skos:broader     tag:film , tag:cuba ;
+        skos:prefLabel   "Film cubain" .
 
 tag:json_2_json_ld  a    sl:Tag ;
         sl:creationDate  "2017-01-05" ;
@@ -21448,7 +21075,7 @@ tag:end_to_end_entity_linking
         a                sl:Tag ;
         sl:creationDate  "2020-01-09" ;
         sl:creationTime  "2020-01-09T15:12:14Z" ;
-        skos:broader     tag:entity_discovery_and_linking , tag:entity_linking , tag:end_to_end_learning ;
+        skos:broader     tag:entity_discovery_and_linking , tag:entity_linking ;
         skos:prefLabel   "End-To-End Entity Linking" .
 
 tag:pollueurs_payeurs
@@ -21711,10 +21338,6 @@ tag:sota  a              sl:Tag ;
         sl:creationTime  "2018-06-23T01:05:10Z" ;
         skos:prefLabel   "SOTA" .
 
-tag:tutorial  a         sl:Tag ;
-        skos:broader    tag:howto_tutorial_faq , tag:dev ;
-        skos:prefLabel  "Tutorial" .
-
 tag:communisme  a       sl:Tag ;
         skos:prefLabel  "Communisme"@fr .
 
@@ -21725,11 +21348,9 @@ tag:personal_knowledge_graph
         skos:broader     tag:knowledge_graph ;
         skos:prefLabel   "Personal Knowledge Graph" .
 
-tag:cognitive_search  a  sl:Tag ;
-        sl:creationDate  "2020-12-19" ;
-        sl:creationTime  "2020-12-19T11:26:57Z" ;
-        skos:broader     tag:cognitive_computing ;
-        skos:prefLabel   "Cognitive Search" .
+tag:tutorial  a         sl:Tag ;
+        skos:broader    tag:howto_tutorial_faq , tag:dev ;
+        skos:prefLabel  "Tutorial" .
 
 tag:arthropodes  a       sl:Tag ;
         sl:creationDate  "2019-11-09" ;
@@ -21848,9 +21469,8 @@ tag:ws_vs_pox_http  a   sl:Tag ;
 tag:christopher_olah  a  sl:Tag ;
         sl:creationDate  "2015-10-16" ;
         sl:creationTime  "2015-10-16T16:36:38Z" ;
-        skos:altLabel    "Christopher Olah" ;
         skos:broader     tag:ai_girls_and_guys ;
-        skos:prefLabel   "Chris Olah" .
+        skos:prefLabel   "Christopher Olah" .
 
 tag:heredite  a          sl:Tag ;
         sl:creationDate  "2011-03-27" ;
@@ -21911,15 +21531,6 @@ tag:ml_nlp_blog  a       sl:Tag ;
         sl:creationTime  "2018-09-09T15:35:59Z" ;
         skos:broader     tag:blog , tag:machine_learning , tag:nlp ;
         skos:prefLabel   "ML/NLP blog" .
-
-tag:not_encoding_knowledge_in_language_model
-        a                sl:Tag ;
-        sl:comment       "Louis XIV died in 1715. This doesn't need to be encoded in the parameters of the Language Model."@en ;
-        sl:creationDate  "2021-01-23" ;
-        sl:creationTime  "2021-01-23T13:28:46Z" ;
-        skos:broader     tag:language_models_knowledge ;
-        skos:prefLabel   "Not Encoding Factual Knowledge in Language Model"@en ;
-        skos:related     tag:language_models_as_knowledge_bases , tag:how_much_information_in_a_language .
 
 tag:m2eclipse  a         sl:Tag ;
         sl:creationDate  "2012-09-06" ;
@@ -22072,12 +21683,6 @@ tag:service_descriptors
         sl:creationDate  "2017-02-04" ;
         sl:creationTime  "2017-02-04T11:37:09Z" ;
         skos:prefLabel   "Service Descriptors" .
-
-tag:google_ai_blog  a    sl:Tag ;
-        sl:creationDate  "2020-12-09" ;
-        sl:creationTime  "2020-12-09T12:08:04Z" ;
-        skos:broader     tag:blog , tag:ml_google ;
-        skos:prefLabel   "Google AI Blog" .
 
 tag:keras_functional_api
         a                sl:Tag ;
@@ -22741,7 +22346,6 @@ tag:elevage_industriel
         a                sl:Tag ;
         sl:creationDate  "2013-02-14" ;
         sl:creationTime  "2013-02-14T08:44:40Z" ;
-        skos:altLabel    "Industrial farming"@en ;
         skos:broader     tag:elevage ;
         skos:prefLabel   "Elevage industriel" ;
         skos:related     tag:elevage_porcin .
@@ -22831,7 +22435,7 @@ tag:google_research  a   sl:Tag ;
         sl:creationDate  "2013-03-12" ;
         sl:creationTime  "2013-03-12T14:50:52Z" ;
         skos:broader     tag:google ;
-        skos:prefLabel   "Google Research"@en .
+        skos:prefLabel   "Google Research" .
 
 tag:blockchain  a        sl:Tag ;
         sl:creationDate  "2015-09-13" ;
@@ -23138,12 +22742,6 @@ tag:fiction  a           sl:Tag ;
         sl:creationTime  "2017-08-02T12:52:33Z" ;
         skos:prefLabel   "Fiction" .
 
-tag:nlp_amazon  a        sl:Tag ;
-        sl:creationDate  "2021-01-10" ;
-        sl:creationTime  "2021-01-10T19:29:36Z" ;
-        skos:broader     tag:ai_amazon ;
-        skos:prefLabel   "NLP@Amazon" .
-
 tag:mission_voulet_chanoine
         a               sl:Tag ;
         sl:comment      "En 1899, deux officiers français partis avec leurs hommes à la conquête du Tchad massacrèrent tout sur leur passage." ;
@@ -23195,21 +22793,14 @@ tag:vito  a             sl:Tag ;
         skos:broader    tag:ami ;
         skos:prefLabel  "Vito"@fr .
 
-tag:kurdes  a           sl:Tag ;
-        skos:broader    tag:peuples ;
-        skos:prefLabel  "Kurdes" .
-
 tag:con_de_chirac  a    sl:Tag ;
         skos:altLabel   "Chirac est nul" ;
         skos:broader    tag:chirac ;
         skos:prefLabel  "Con de Chirac" .
 
-tag:hierarchical_classification_evaluation
-        a                sl:Tag ;
-        sl:creationDate  "2021-01-10" ;
-        sl:creationTime  "2021-01-10T12:30:52Z" ;
-        skos:broader     tag:hierarchical_classification ;
-        skos:prefLabel   "Hierarchical classification: evaluation" .
+tag:kurdes  a           sl:Tag ;
+        skos:broader    tag:peuples ;
+        skos:prefLabel  "Kurdes" .
 
 tag:concept_search  a    sl:Tag ;
         sl:creationDate  "2017-09-10" ;
@@ -23239,10 +22830,6 @@ tag:courtadon  a         sl:Tag ;
         skos:broader     tag:sculpture , tag:pierre_de_volvic ;
         skos:prefLabel   "Courtadon" .
 
-tag:alpinisme  a        sl:Tag ;
-        skos:broader    tag:sport , tag:montagne ;
-        skos:prefLabel  "Alpinisme" .
-
 tag:messenger  a         sl:Tag ;
         sl:creationDate  "2008-01-15" ;
         sl:creationTime  "2008-01-15T14:03:29Z" ;
@@ -23251,17 +22838,14 @@ tag:messenger  a         sl:Tag ;
         <http://xmlns.com/foaf/0.1/homepage>
                 <http://messenger.jhuapl.edu/> .
 
+tag:alpinisme  a        sl:Tag ;
+        skos:broader    tag:sport , tag:montagne ;
+        skos:prefLabel  "Alpinisme" .
+
 tag:ethiopie  a         sl:Tag ;
         sl:sameAs       <http://dbpedia.org/resource/Ethiopia> ;
         skos:broader    tag:afrique_de_l_est ;
         skos:prefLabel  "Ethiopie" .
-
-tag:social_networkd_are_bad
-        a                sl:Tag ;
-        sl:creationDate  "2021-01-10" ;
-        sl:creationTime  "2021-01-10T18:11:06Z" ;
-        skos:broader     tag:social_networks ;
-        skos:prefLabel   "Social Networkd are bad" .
 
 tag:tim_bray  a         sl:Tag ;
         skos:broader    tag:technical_girls_and_guys ;
@@ -23349,12 +22933,6 @@ tag:data_portal  a       sl:Tag ;
         sl:creationTime  "2012-10-23T00:54:24Z" ;
         skos:prefLabel   "Data portal" .
 
-tag:speculation  a       sl:Tag ;
-        sl:creationDate  "2010-05-21" ;
-        sl:creationTime  "2010-05-21T21:23:13Z" ;
-        skos:broader     tag:finance ;
-        skos:prefLabel   "Spéculation" .
-
 tag:entity_attribute_value_model
         a                sl:Tag ;
         sl:comment       "a data model to encode entities where the number of attributes that can be used to describe them is potentially vast, but the number that will actually apply to a given entity is relatively small. cf. sparse matrix."@en ;
@@ -23432,12 +23010,6 @@ tag:public_hydra_w3_org
 tag:film_argentin  a    sl:Tag ;
         skos:broader    tag:film , tag:argentine ;
         skos:prefLabel  "Film argentin" .
-
-tag:rdf_star  a          sl:Tag ;
-        sl:creationDate  "2020-12-22" ;
-        sl:creationTime  "2020-12-22T18:16:28Z" ;
-        skos:broader     tag:rdf_and_property_graphs , tag:rdf ;
-        skos:prefLabel   "RDF*" .
 
 tag:n_gram  a            sl:Tag ;
         sl:creationDate  "2012-03-24" ;
@@ -23658,7 +23230,7 @@ tag:bill_de_hora  a     sl:Tag ;
 
 tag:hayabusa  a         sl:Tag ;
         sl:describedBy  <https://en.wikipedia.org/wiki/Hayabusa> ;
-        skos:broader    tag:missions_spatiales , tag:japon , tag:asteroide ;
+        skos:broader    tag:japon , tag:missions_spatiales , tag:asteroide ;
         skos:prefLabel  "Hayabusa" .
 
 tag:engelbart  a        sl:Tag ;
@@ -23706,14 +23278,6 @@ tag:modification_du_genome_humain
         sl:creationTime  "2018-11-27T00:13:45Z" ;
         skos:broader     tag:manipulations_genetiques ;
         skos:prefLabel   "Modification du génome humain" .
-
-tag:maxwell_s_demon  a   sl:Tag ;
-        sl:creationDate  "2021-01-13" ;
-        sl:creationTime  "2021-01-13T11:50:18Z" ;
-        sl:describedBy   <https://en.wikipedia.org/wiki/Maxwell%27s_demon> ;
-        skos:altLabel    "Démon de Maxwell"@fr ;
-        skos:broader     tag:physique ;
-        skos:prefLabel   "Maxwell's demon"@en .
 
 tag:markus_lanthaler  a  sl:Tag ;
         sl:creationDate  "2014-10-29" ;
@@ -23780,12 +23344,6 @@ tag:banco  a             sl:Tag ;
         sl:creationTime  "2013-03-05T00:18:42Z" ;
         skos:broader     tag:architecture_en_terre ;
         skos:prefLabel   "Banco" .
-
-tag:retard_technologique_francais
-        a                sl:Tag ;
-        sl:creationDate  "2006-11-20" ;
-        skos:broader     tag:retard_technologique_europeen , tag:declin_de_la_france , tag:france_delabrement ;
-        skos:prefLabel   "Retard technologique français" .
 
 tag:rant  a              sl:Tag ;
         sl:creationDate  "2018-01-03" ;
@@ -23966,13 +23524,6 @@ tag:global_workspace_theory
         skos:prefLabel   "Global workspace theory" ;
         skos:related     tag:stanislas_dehaene , tag:models_of_consciousness .
 
-tag:semanlink_tag_finder
-        a                sl:Tag ;
-        sl:creationDate  "2020-09-15" ;
-        sl:creationTime  "2020-09-15T18:23:48Z" ;
-        skos:broader     tag:hierarchical_multi_label_text_classification , tag:nlp_4_semanlink ;
-        skos:prefLabel   "Semanlink Tag Finder" .
-
 tag:antiwork  a          sl:Tag ;
         sl:creationDate  "2015-02-03" ;
         sl:creationTime  "2015-02-03T18:35:34Z" ;
@@ -23992,7 +23543,6 @@ tag:end_to_end_learning
         a                sl:Tag ;
         sl:creationDate  "2020-07-06" ;
         sl:creationTime  "2020-07-06T17:41:54Z" ;
-        skos:broader     tag:machine_learning ;
         skos:prefLabel   "End-to-End Learning" .
 
 tag:rechauffement_climatique
@@ -24164,7 +23714,7 @@ tag:chlorinated_chicken
 tag:sparql  a           sl:Tag ;
         sl:comment      "Backed by the flexibility of the RDF data model, and consisting of both a query language and data access protocol SPARQL has the potential to become a key component in Web 2.0 applications. SPARQL could provide a common query language for all Web 2.0 applications." ;
         skos:broader    tag:semantic_web ;
-        skos:prefLabel  "SPARQL" .
+        skos:prefLabel  "SPARQL"@fr .
 
 tag:stanislas_dehaene
         a                sl:Tag ;
@@ -24333,11 +23883,6 @@ tag:random_walk  a       sl:Tag ;
         sl:describedBy   <https://en.wikipedia.org/wiki/Random_walk#On_graphs> ;
         skos:prefLabel   "Random walk" ;
         skos:related     tag:rdf2vec .
-
-tag:e_commerce  a        sl:Tag ;
-        sl:creationDate  "2020-12-14" ;
-        sl:creationTime  "2020-12-14T11:11:50Z" ;
-        skos:prefLabel   "e-commerce" .
 
 tag:greve_du_sexe  a     sl:Tag ;
         sl:creationDate  "2016-07-25" ;
@@ -24672,13 +24217,6 @@ tag:pierres_precieuses
         sl:creationTime  "2017-12-16T18:05:11Z" ;
         skos:prefLabel   "Pierres précieuses" .
 
-tag:yrjana_rankka  a     sl:Tag ;
-        sl:creationDate  "2010-02-03" ;
-        sl:creationTime  "2010-02-03T13:57:34Z" ;
-        skos:broader     tag:technical_girls_and_guys , tag:sw_guys ;
-        skos:prefLabel   "Yrjänä Rankka" ;
-        skos:related     tag:ldow2008 .
-
 tag:livre_a_lire  a      sl:Tag ;
         sl:creationDate  "2007-03-20" ;
         sl:creationTime  "2007-03-20T21:48:50Z" ;
@@ -24783,7 +24321,7 @@ tag:bitcoin  a           sl:Tag ;
         sl:creationDate  "2011-06-15" ;
         sl:creationTime  "2011-06-15T15:58:36Z" ;
         sl:describedBy   <https://en.wikipedia.org/wiki/Bitcoin> ;
-        skos:broader     tag:money , tag:peer_to_peer , tag:virtual_currency , tag:cryptocurrency ;
+        skos:broader     tag:peer_to_peer , tag:money , tag:virtual_currency , tag:cryptocurrency ;
         skos:prefLabel   "Bitcoin"@fr .
 
 tag:consensus  a         sl:Tag ;
@@ -25106,14 +24644,6 @@ tag:electric_car  a      sl:Tag ;
         skos:broader     tag:automobile ;
         skos:prefLabel   "Electric car" .
 
-tag:natural_language_supervision
-        a                sl:Tag ;
-        sl:creationDate  "2021-01-06" ;
-        sl:creationTime  "2021-01-06T15:54:20Z" ;
-        skos:broader     tag:machine_learning_techniques ;
-        skos:prefLabel   "Natural Language Supervision" ;
-        skos:related     tag:self_supervised_learning .
-
 tag:irrigation  a       sl:Tag ;
         skos:broader    tag:eau ;
         skos:prefLabel  "Irrigation" .
@@ -25151,12 +24681,6 @@ tag:olivier_rossel  a    sl:Tag ;
         skos:broader     tag:technical_girls_and_guys ;
         skos:prefLabel   "Olivier Rossel" .
 
-tag:knowledge_mining  a  sl:Tag ;
-        sl:creationDate  "2020-12-19" ;
-        sl:creationTime  "2020-12-19T11:28:01Z" ;
-        skos:broader     tag:ai_knowledge_bases ;
-        skos:prefLabel   "Knowledge mining" .
-
 tag:suisse  a           sl:Tag ;
         skos:broader    tag:europe , tag:pays_d_europe ;
         skos:prefLabel  "Suisse" .
@@ -25182,12 +24706,6 @@ tag:code_on_demand  a    sl:Tag ;
 tag:web_tools  a        sl:Tag ;
         skos:broader    tag:web , tag:dev , tag:tools ;
         skos:prefLabel  "Web tools" .
-
-tag:graphs_nlp  a        sl:Tag ;
-        sl:creationDate  "2020-12-13" ;
-        sl:creationTime  "2020-12-13T23:55:54Z" ;
-        skos:broader     tag:graph , tag:nlp , tag:graphs_machine_learning ;
-        skos:prefLabel   "Graphs + NLP" .
 
 tag:bug  a               sl:Tag ;
         sl:creationDate  "2007-11-10" ;
@@ -25357,13 +24875,6 @@ tag:janis_joplin  a     sl:Tag ;
         skos:broader    tag:musicien ;
         skos:prefLabel  "Janis Joplin"@fr .
 
-tag:knowledge_graph_search_engine
-        a                sl:Tag ;
-        sl:creationDate  "2020-12-10" ;
-        sl:creationTime  "2020-12-10T13:39:28Z" ;
-        skos:broader     tag:knowledge_graph , tag:search_engines ;
-        skos:prefLabel   "Knowledge graph search engine" .
-
 tag:jersey_cache_control
         a                sl:Tag ;
         sl:creationDate  "2015-02-11" ;
@@ -25462,7 +24973,6 @@ tag:recommender_systems
         skos:prefLabel   "Recommender Systems"@en .
 
 tag:allemagne  a        sl:Tag ;
-        skos:altLabel   "Germany"@en , "Deutschland"@de ;
         skos:broader    tag:europe , tag:pays_d_europe ;
         skos:prefLabel  "Allemagne"@fr .
 
@@ -25514,9 +25024,16 @@ tag:guaranteed_basic_income
         a                sl:Tag ;
         sl:creationDate  "2015-11-09" ;
         sl:creationTime  "2015-11-09T13:28:59Z" ;
-        skos:altLabel    "Revenu Universel"@fr , "UBI"@en ;
+        skos:altLabel    "UBI" ;
         skos:broader     tag:travail ;
         skos:prefLabel   "Universal basic income"@en .
+
+tag:capitalism_surveillance
+        a                sl:Tag ;
+        sl:creationDate  "2019-06-14" ;
+        sl:creationTime  "2019-06-14T23:38:55Z" ;
+        skos:broader     tag:vive_le_capitalisme , tag:big_brother ;
+        skos:prefLabel   "Capitalism Surveillance" .
 
 tag:pbs  a              sl:Tag ;
         skos:broader    tag:television ;
@@ -26097,13 +25614,6 @@ tag:language_identification
         skos:broader     tag:nlp_problem ;
         skos:prefLabel   "Language Identification" .
 
-tag:probability_distribution
-        a                sl:Tag ;
-        sl:creationDate  "2021-01-13" ;
-        sl:creationTime  "2021-01-13T11:47:24Z" ;
-        sl:describedBy   <https://en.wikipedia.org/wiki/Probability_distribution> ;
-        skos:prefLabel   "Probability distribution" .
-
 tag:chine  a            sl:Tag ;
         skos:altLabel   "China"@en ;
         skos:broader    tag:asie ;
@@ -26154,11 +25664,6 @@ tag:loi_renseignement
         sl:creationTime  "2015-07-11T00:37:45Z" ;
         skos:broader     tag:big_brother ;
         skos:prefLabel   "Loi Renseignement" .
-
-tag:ornithorynque  a    sl:Tag ;
-        skos:altLabel   "Platypus"@en ;
-        skos:broader    tag:animal , tag:monotremes ;
-        skos:prefLabel  "Ornithorynque" .
 
 tag:inde_moderne  a      sl:Tag ;
         sl:creationDate  "2014-09-25" ;
@@ -26297,13 +25802,6 @@ tag:mirek_sopek  a       sl:Tag ;
         skos:broader     tag:sw_guys ;
         skos:prefLabel   "Mirek Sopek" ;
         skos:related     tag:makolab .
-
-tag:cancel_culture  a    sl:Tag ;
-        sl:creationDate  "2020-12-26" ;
-        sl:creationTime  "2020-12-26T13:01:40Z" ;
-        sl:describedBy   <https://en.wikipedia.org/wiki/Cancel_culture> ;
-        skos:altLabel    "Call-out culture"@en ;
-        skos:prefLabel   "Cancel culture" .
 
 tag:rdf_owl_documentation_tool
         a                sl:Tag ;
