@@ -673,6 +673,13 @@
         sl:creationTime  "2020-11-03T17:50:54Z" ;
         sl:tag           tag:ijcai , tag:text_aware_kg_embedding .
 
+<http://www.semanlink.net/doc/2021/10/nils_reimers_sur_twitter_neu>
+        dc:title         "Nils Reimers sur Twitter : \"Neural Search for Low Resource Scenarios...\"" ;
+        sl:bookmarkOf    <https://twitter.com/Nils_Reimers/status/1452931505995624451?s=20> ;
+        sl:creationDate  "2021-10-27" ;
+        sl:creationTime  "2021-10-27T01:48:22Z" ;
+        sl:tag           tag:nlp_low_resource_scenarios , tag:tweet , tag:neural_models_for_information_retrieval , tag:nils_reimers .
+
 <http://www.coactus.com/blog/2006/12/validation-considered-harmful>
         dc:title         "Validation considered harmful" ;
         sl:comment       "On the Web, you need to be able to process messages from the future." ;
@@ -751,7 +758,7 @@
 <http://www.semanlink.net/doc/2021/10/next_gen_sentence_embeddings_wi>
         dc:title         "Next-Gen Sentence Embeddings with Multiple Negatives Ranking Loss | Pinecone" ;
         sl:bookmarkOf    <https://www.pinecone.io/learn/fine-tune-sentence-transformers-mnr/> ;
-        sl:comment       "> the world of sentence embeddings was ignited with the introduction of SBERT in 2019. Since then, many more sentence transformers have been introduced. These models quickly made the original SBERT obsolete. How did these newer sentence transformers manage to outperform SBERT so quickly? The answer is multiple negatives ranking (MNR) loss." ;
+        sl:comment       "> the world of sentence embeddings was ignited with the introduction of SBERT in 2019. Since then, many more sentence transformers have been introduced. These models quickly made the original SBERT obsolete. How did these newer sentence transformers manage to outperform SBERT so quickly? The answer is **multiple negatives ranking (MNR) loss**.\r\n\r\n> In short; **fine-tune your models with MNR loss, and do it with the sentence-transformers library**."@en ;
         sl:creationDate  "2021-10-27" ;
         sl:creationTime  "2021-10-27T01:24:49Z" ;
         sl:tag           tag:sbert , tag:sentence_embeddings .
@@ -1936,6 +1943,13 @@
         sl:creationTime  "2019-02-28T17:48:31Z" ;
         sl:tag           tag:workshop , tag:w3c , tag:rdf , tag:graph_database , tag:rdf_and_property_graphs .
 
+<http://www.semanlink.net/doc/2021/10/on_the_stability_of_fine_tuning>
+        dc:title         "On the Stability of Fine-tuning BERT: Misconceptions, Explanations, and Strong Baselines | OpenReview" ;
+        sl:bookmarkOf    <https://openreview.net/forum?id=nzpLWnVAyah> ;
+        sl:creationDate  "2021-10-30" ;
+        sl:creationTime  "2021-10-30T09:14:09Z" ;
+        sl:tag           tag:catastrophic_forgetting , tag:vanishing_gradient , tag:bert_fine_tuning .
+
 <http://www.semanlink.net/doc/2020/08/a_study_of_multilabel_text_clas>
         dc:title         "A Study of multilabel text classification and the effect of label hierarchy (2015)"@en ;
         sl:bookmarkOf    <https://nlp.stanford.edu/courses/cs224n/2013/reports/nayak.pdf> ;
@@ -2893,6 +2907,14 @@
         sl:creationDate  "2008-09-24" ;
         sl:creationTime  "2008-09-24T23:02:07Z" ;
         sl:tag           tag:chine_afrique , tag:mali , tag:deforestation .
+
+<http://www.semanlink.net/doc/2021/11/energie_en_france_wikipedia>
+        dc:title         "Énergie en France — Wikipédia" ;
+        sl:bookmarkOf    <https://fr.wikipedia.org/wiki/%C3%89nergie_en_France#Consommation_finale> ;
+        sl:comment       " **Consommation finale (au niveau des consommateurs)** de 2018 **par source primaire d'énergie** :\r\n> - combustibles fossiles : 67,4 % (charbon 1,9 %, pétrole 44,0 %, gaz naturel 21,5 %) ;\r\n> - nucléaire : 17,7 % ;\r\n> - énergies renouvelables : 14,9 % (biomasse-déchets 9,8 %, hydraulique 3,0 %, éolien 1,2 %, solaire 0,5 % (essentiellement photovoltaïque), autres 0,3 %).\r\n\r\n**Consommation finale**\r\n> - 43,1 % de produits pétroliers, \r\n> - 24,3 % d'électricité, \r\n> - 19,3 % de gaz naturel, \r\n> - 10,0 % d'énergies renouvelables thermiques et déchets, \r\n> - 2,4 % de chaleur\r\n> -  0,8 % de charbon\r\n\r\n**Offre d'énergie primaire** 241,4 M tep, **par agent énergétique** -- ??? :\r\n\r\nLE TOTAL NE FAIT PAS 100 !!!\r\n\r\n> - électricité : 45 %\r\n> - pétrole : 29 %\r\n> - gaz naturel : 15,5 %\r\n> - bois, biomasse, déchets : 7,5 %\r\n> - charbon : 3,1 %\r\n> - Énergies renouvelables\t11,5 %\r\n\r\n\r\n\r\n**forme d'énergie primaire consommée**, tous secteurs confondus, \r\n> - électricité nucléaire 40 %\r\n> - pétrole : 29 %, \r\n> - gaz : 16 %,\r\n> - énergies renouvelables et déchets : 12 %\r\n> - charbon : 3 %\r\n\r\n**Electricité par filière** :\r\n> - nucléaire : 69,9 %\r\n> - hydro : 11 %\r\n> - thermique : 9 %\r\n> - éoliennes : 6,1 %\r\n> - autres : 2,1 %\r\n> - biomasse/déchets : 2 %\r\n\r\n**Consommation finale par secteur**\r\n\r\n> Les 142,9 Mtep de consommation finale énergétique réelle (non corrigée) se répartit entre \r\n> - le secteur des transports : 45,2 Mtep, soit 31,6 %, \r\n> - le secteur résidentiel (consommation des ménages dans leurs logements) : 39,8 Mtep, soit 27,9 %, \r\n> - l'industrie : 31 Mtep, soit 21,7 %, \r\n> - le secteur tertiaire : 22,4 Mtep, soit 15,7 % \r\n> - le secteur agricole : 4,4 Mtep, soit 3,1 %.\r\n\r\n\r\n.\r\n" ;
+        sl:creationDate  "2021-11-03" ;
+        sl:creationTime  "2021-11-03T00:02:14Z" ;
+        sl:tag           tag:energie , tag:electricite , tag:france .
 
 <http://searchengineland.com/google-becomes-answer-engine-with-semantic-technology-great-news-for-retailers-116860>
         dc:title         "Google Becomes Answer Engine With Semantic Technology − Great News For Retailers" ;
@@ -6151,6 +6173,13 @@
         sl:creationTime  "2016-01-27T23:59:26Z" ;
         sl:tag           tag:go_game , tag:artificial_intelligence .
 
+<http://www.semanlink.net/doc/2021/11/babel_minute_zero_guy_philip>
+        dc:title         "Babel Minute Zéro  - Guy-Philippe Goldstein : le chaos en temps réel" ;
+        sl:bookmarkOf    <https://www.lemonde.fr/livres/article/2007/04/26/guy-philippe-goldstein-le-chaos-en-temps-reel_901975_3260.html> ;
+        sl:creationDate  "2021-11-03" ;
+        sl:creationTime  "2021-11-03T12:29:01Z" ;
+        sl:tag           tag:thriller , tag:livre_a_lire , tag:chine_usa .
+
 <https://blog.codecentric.de/en/2012/05/writing-lightweight-rest-integration-tests-with-the-jersey-test-framework/>
         dc:title         "Writing lightweight REST integration tests with the Jersey Test Framework" ;
         sl:creationDate  "2015-04-09" ;
@@ -9275,6 +9304,13 @@
         sl:creationTime  "2017-09-07T13:23:34Z" ;
         sl:tag           tag:tools , tag:uri_encoding .
 
+<http://www.semanlink.net/doc/2021/11/raphaelsty_nlapi>
+        dc:title         "raphaelsty/nlapi" ;
+        sl:bookmarkOf    <https://github.com/raphaelsty/nlapi> ;
+        sl:creationDate  "2021-11-02" ;
+        sl:creationTime  "2021-11-02T20:48:27Z" ;
+        sl:tag           tag:github_project , tag:raphaelsty .
+
 <https://openreview.net/forum?id=S1HlA-ZAZ>
         dc:title         "The Kanerva Machine: A Generative Distributed Memory | OpenReview (2018)"@en ;
         sl:comment       "A generative memory model that combines slow-learning neural networks and a fast-adapting linear Gaussian model as memory"@en ;
@@ -11985,6 +12021,13 @@
         sl:creationTime  "2019-10-20T14:47:49Z" ;
         sl:tag           tag:apache_org , tag:microsoft , tag:tika .
 
+<http://openjena.org/wiki/TDB/QuadFilter>
+        dc:title         "TDB/QuadFilter - Jena Wiki" ;
+        sl:comment       "This page describes how to filter quads at the lowest level of TDB. It can be used to hide certain quads (tripes in named graphs) or triples.\r\n" ;
+        sl:creationDate  "2011-03-15" ;
+        sl:creationTime  "2011-03-15T15:50:32Z" ;
+        sl:tag           tag:jena_tdb .
+
 <https://www.quora.com/What-is-the-difference-between-gradient-boosting-and-adaboost>
         dc:title         "What is the difference between gradient boosting and adaboost? - Quora" ;
         sl:creationDate  "2019-01-15" ;
@@ -11998,12 +12041,13 @@
         sl:creationTime  "2020-12-17T14:10:56Z" ;
         sl:tag           tag:hydrogen , tag:hydrogen_economy .
 
-<http://openjena.org/wiki/TDB/QuadFilter>
-        dc:title         "TDB/QuadFilter - Jena Wiki" ;
-        sl:comment       "This page describes how to filter quads at the lowest level of TDB. It can be used to hide certain quads (tripes in named graphs) or triples.\r\n" ;
-        sl:creationDate  "2011-03-15" ;
-        sl:creationTime  "2011-03-15T15:50:32Z" ;
-        sl:tag           tag:jena_tdb .
+<http://www.semanlink.net/doc/2021/11/vizkg_%C2%B7_pypi>
+        dc:title         "VizKG · PyPI" ;
+        sl:bookmarkOf    <https://pypi.org/project/VizKG/> ;
+        sl:comment       "VizKG, a visualization library for SPARQL query results over KGs. VizKG links SPARQL query results and external visualization libraries by mapping query variables to the visualization components needed, currently allowing for 24 types of visualizations." ;
+        sl:creationDate  "2021-11-02" ;
+        sl:creationTime  "2021-11-02T18:50:26Z" ;
+        sl:tag           tag:data_visualization_tools , tag:sparql .
 
 <http://www.semanlink.net/doc/2021/04/how_many_data_points_is_a_promp>
         dc:title         "How many data points is a prompt worth ?" ;
@@ -14789,6 +14833,13 @@
         sl:creationDate  "2007-11-09" ;
         sl:creationTime  "2007-11-09T13:24:24Z" ;
         sl:tag           tag:kaguya .
+
+<http://www.semanlink.net/doc/2021/10/au_rwanda_kigali_se_reve_en_vi>
+        dc:title         "Au Rwanda, Kigali se rêve en ville verte" ;
+        sl:bookmarkOf    <https://www.lemonde.fr/afrique/article/2021/10/28/au-rwanda-kigali-se-reve-en-ville-verte_6100219_3212.html> ;
+        sl:creationDate  "2021-10-28" ;
+        sl:creationTime  "2021-10-28T18:06:00Z" ;
+        sl:tag           tag:velo , tag:rwanda , tag:ville , tag:kigali .
 
 <http://vocab.deri.ie/csp>
         dc:title         "CSP - A vocabulary to represent Constraint Satisfaction Problems. | DERI Vocabularies" ;
@@ -29400,6 +29451,18 @@
         sl:creationDate  "2006-06-25" ;
         sl:tag           tag:javascript_librairies , tag:javascript_dom .
 
+<http://www.liberation.fr/culture/01012357658-petite-poucette-la-generation-mutante>
+        dc:title         "Petite Poucette, la génération mutante" ;
+        sl:creationDate  "2011-09-05" ;
+        sl:creationTime  "2011-09-05T14:41:01Z" ;
+        sl:tag           tag:michel_serres .
+
+<http://www.gartner.com/newsroom/id/2359715>
+        dc:title         "Gartner Identifies Top Technology Trends Impacting Information Infrastructure in 2013" ;
+        sl:creationDate  "2013-03-21" ;
+        sl:creationTime  "2013-03-21T22:19:21Z" ;
+        sl:tag           tag:gartner .
+
 <http://www.semanlink.net/doc/2020/04/2001_09522_taxoexpan_self_su>
         dc:title              "[2001.09522] TaxoExpan: Self-supervised Taxonomy Expansion with Position-Enhanced Graph Neural Network"@en ;
         sl:arxiv_author       "Jiaming Shen" , "Zhihong Shen" , "Kuansan Wang" , "Chenyan Xiong" , "Chi Wang" , "Jiawei Han" ;
@@ -29415,18 +29478,6 @@
         sl:creationTime       "2020-04-25T10:03:35Z" ;
         sl:relatedDoc         <https://arxiv.org/abs/1807.03748> ;
         sl:tag                tag:taxonomy_expansion_task , tag:thewebconf_2020 , tag:graph_neural_networks , tag:discute_avec_raphael , tag:taxonomies , tag:nlp_microsoft , tag:arxiv_doc , tag:knowledge_graph_completion , tag:microsoft_research , tag:text_aware_kg_embedding .
-
-<http://www.gartner.com/newsroom/id/2359715>
-        dc:title         "Gartner Identifies Top Technology Trends Impacting Information Infrastructure in 2013" ;
-        sl:creationDate  "2013-03-21" ;
-        sl:creationTime  "2013-03-21T22:19:21Z" ;
-        sl:tag           tag:gartner .
-
-<http://www.liberation.fr/culture/01012357658-petite-poucette-la-generation-mutante>
-        dc:title         "Petite Poucette, la génération mutante" ;
-        sl:creationDate  "2011-09-05" ;
-        sl:creationTime  "2011-09-05T14:41:01Z" ;
-        sl:tag           tag:michel_serres .
 
 <https://levyomer.wordpress.com/2014/04/25/dependency-based-word-embeddings/>
         dc:title         "Dependency-Based Word Embeddings | Omer Levy" ;
@@ -29449,6 +29500,13 @@
         sl:creationTime  "2019-12-17T14:46:24Z" ;
         sl:relatedDoc    <http://www.semanlink.net/doc/2021/02/why_we_switched_from_spacy_to_f> ;
         sl:tag           tag:annotation_tools , tag:nlp_juridique , tag:nlp_data_anonymization , tag:labeling_data , tag:named_entity_recognition .
+
+<http://www.semanlink.net/doc/2021/10/grammarly_free_online_writing_>
+        dc:title         "Grammarly: Free Online Writing Assistant" ;
+        sl:bookmarkOf    <https://www.grammarly.com/> ;
+        sl:creationDate  "2021-10-29" ;
+        sl:creationTime  "2021-10-29T17:58:38Z" ;
+        sl:tag           tag:nlp_use_cases .
 
 <https://www.youtube.com/watch?v=e-5obm1G_FY>
         dc:title         "Anjana Vakil: Learning Functional Programming with JavaScript - JSUnconf 2016 - YouTube" ;
@@ -32992,6 +33050,14 @@
         dc:title         "Partager nos signets"@fr ;
         sl:creationDate  "2005-04-04" ;
         sl:tag           tag:blogs_le_monde , tag:bookmarks .
+
+<http://www.semanlink.net/doc/2021/10/migrations_during_times_of_drou>
+        dc:title         "Migrations during Times of Drought and Famine in Early Colonial Northern Nigeria | Studia Orientalia Electronica" ;
+        sl:bookmarkOf    <https://journal.fi/store/article/view/41651> ;
+        sl:comment       "> There is a surprising silence about movement of people, or even about refugees,\r\nin times of famines in the Sudan zone before the colonial era.5 For Hausaland,\r\ndata is somewhat better for the 19th century and records are available for the\r\nfamine known as Banga-Banga (c. 1855).\r\n\r\n> Recent sfudies by\r\nBrooks (1993) and Webb (1995) have focused on the interaction between\r\nenvironmental and socio-political history\r\n\r\n> The \"Song of Bagauda\"\r\n(Wakar Bagauda) attributes the rise of Kano to a \"killing famine\"" ;
+        sl:creationDate  "2021-10-31" ;
+        sl:creationTime  "2021-10-31T15:54:21Z" ;
+        sl:tag           tag:famine , tag:nigeria , tag:migrations_humaines , tag:histoire_de_l_afrique_and_afrique_de_l_ouest .
 
 <http://graus.nu/research/context-based-entity-linking/>
         dc:title         "Context-based Entity Linking | Blog | graus.nu" ;
@@ -40014,7 +40080,7 @@
         sl:arxiv_title        "AutoETER: Automated Entity Type Representation for Knowledge Graph Embedding"@en ;
         sl:arxiv_updated      "2020-10-06T13:52:59Z" ;
         sl:bookmarkOf         <https://arxiv.org/abs/2009.12030> ;
-        sl:comment            "head_type +relation = tail_type (Hum, mais pour une relation entre 2 entités de même type ?)" ;
+        sl:comment            "head_type + relation = tail_type (Hum, mais pour une relation entre 2 entités de même type ?)" ;
         sl:creationDate       "2021-05-17" ;
         sl:creationTime       "2021-05-17T16:47:20Z" ;
         sl:tag                tag:knowledge_graph_embeddings , tag:emnlp_2020 , tag:discute_avec_raphael , tag:arxiv_doc , tag:entity_type_representation .
@@ -42273,6 +42339,12 @@
         sl:creationTime  "2007-09-13T22:02:11Z" ;
         sl:tag           tag:iapetus , tag:cassini .
 
+<http://www.zdnet.com/blog/networking/freedom-box-freeing-the-internet-one-server-at-a-time/698>
+        dc:title         "Freedom Box: Freeing the Internet one Server at a time | ZDNet" ;
+        sl:creationDate  "2011-09-09" ;
+        sl:creationTime  "2011-09-09T10:57:23Z" ;
+        sl:tag           tag:freedom_box .
+
 <http://www.semanlink.net/doc/2019/11/barack%E2%80%99s_wife_hillary_using_kn>
         dc:title         "Barack’s Wife Hillary: Using Knowledge Graphs for Fact-Aware Language Modeling (ACL 2019)" ;
         sl:bookmarkOf    <https://www.aclweb.org/anthology/P19-1598.pdf> ;
@@ -42280,12 +42352,6 @@
         sl:creationDate  "2019-11-17" ;
         sl:creationTime  "2019-11-17T15:44:42Z" ;
         sl:tag           tag:nlp_using_knowledge_graphs , tag:acl_2019 .
-
-<http://www.zdnet.com/blog/networking/freedom-box-freeing-the-internet-one-server-at-a-time/698>
-        dc:title         "Freedom Box: Freeing the Internet one Server at a time | ZDNet" ;
-        sl:creationDate  "2011-09-09" ;
-        sl:creationTime  "2011-09-09T10:57:23Z" ;
-        sl:tag           tag:freedom_box .
 
 <http://www.slideshare.net/terraces/tmp-467722/>
         dc:title         "FOAF & SIOC applications, slides (Alexandre Passant, ESWC 2008, \"Socail Networks\" tutorial)" ;
@@ -44865,7 +44931,7 @@
         sl:creationDate       "2021-09-01" ;
         sl:creationTime       "2021-09-01T16:43:01Z" ;
         sl:relatedDoc         <http://www.semanlink.net/doc/2020/07/ukplab_sentence_transformers_s> ;
-        sl:tag                tag:sentence_embeddings , tag:unsupervised_sentence_embedding_learning , tag:arxiv_doc , tag:nils_reimers , tag:emnlp_2021 .
+        sl:tag                tag:domain_specific_nlp , tag:sentence_embeddings , tag:unsupervised_sentence_embedding_learning , tag:arxiv_doc , tag:nils_reimers , tag:emnlp_2021 .
 
 <https://stackoverflow.com/questions/517923/what-is-the-best-way-to-remove-accents-in-a-python-unicode-string>
         dc:title         "What is the best way to remove accents in a Python unicode string? - Stack Overflow" ;

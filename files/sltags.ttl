@@ -3214,6 +3214,12 @@ tag:ssl  a               sl:Tag ;
         skos:broader     tag:access_control ;
         skos:prefLabel   "SSL" .
 
+tag:electricite  a       sl:Tag ;
+        sl:creationDate  "2012-12-10" ;
+        sl:creationTime  "2012-12-10T20:03:10Z" ;
+        skos:broader     tag:energie ;
+        skos:prefLabel   "Electricité" .
+
 tag:linkedin  a          sl:Tag ;
         sl:creationDate  "2008-10-16" ;
         sl:creationTime  "2008-10-16T23:30:43Z" ;
@@ -3762,6 +3768,11 @@ tag:windows  a          sl:Tag ;
 tag:oceanie  a          sl:Tag ;
         skos:broader    tag:geographie ;
         skos:prefLabel  "Océanie"@fr .
+
+tag:chine_usa  a         sl:Tag ;
+        sl:creationDate  "2021-11-03" ;
+        sl:creationTime  "2021-11-03T12:29:42Z" ;
+        skos:prefLabel   "Chine-USA" .
 
 tag:synonymy  a          sl:Tag ;
         sl:creationDate  "2019-01-26" ;
@@ -4636,7 +4647,7 @@ tag:hayabusa2  a         sl:Tag ;
         sl:creationDate  "2021-01-09" ;
         sl:creationTime  "2021-01-09T14:22:21Z" ;
         sl:describedBy   <https://en.wikipedia.org/wiki/Hayabusa2> ;
-        skos:altLabel    "Hayabusa2"@- ;
+        skos:altLabel    "Hayabusa2" ;
         skos:broader     tag:japon , tag:asteroide , tag:missions_spatiales ;
         skos:prefLabel   "Hayabusa-2" ;
         skos:related     tag:hayabusa .
@@ -5339,6 +5350,12 @@ tag:guerres_de_religion
         sl:creationTime  "2007-08-06T17:33:07Z" ;
         skos:broader     tag:religion , tag:guerre ;
         skos:prefLabel   "Guerres de religion" .
+
+tag:bert_fine_tuning  a  sl:Tag ;
+        sl:creationDate  "2021-10-30" ;
+        sl:creationTime  "2021-10-30T09:14:27Z" ;
+        skos:broader     tag:bert ;
+        skos:prefLabel   "BERT fine-tuning" .
 
 tag:manu_sporny  a       sl:Tag ;
         sl:creationDate  "2012-02-20" ;
@@ -7867,6 +7884,14 @@ tag:masse_manquante  a  sl:Tag ;
         skos:broader    tag:physique , tag:enigmes_de_la_physique ;
         skos:prefLabel  "Masse manquante" .
 
+tag:lod2  a              sl:Tag ;
+        sl:comment       "\"Creating Knowledge out of Interlinked Data\"" ;
+        sl:creationDate  "2010-09-06" ;
+        sl:creationTime  "2010-09-06T09:30:47Z" ;
+        sl:describedBy   <http://lod2.eu/Welcome.html> ;
+        skos:broader     tag:european_project , tag:linking_open_data ;
+        skos:prefLabel   "LOD2"@fr .
+
 tag:payment  a           sl:Tag ;
         sl:creationDate  "2011-10-12" ;
         sl:creationTime  "2011-10-12T23:52:57Z" ;
@@ -7883,13 +7908,12 @@ tag:michael_rakowitz  a  sl:Tag ;
         <http://xmlns.com/foaf/0.1/homepage>
                 <http://www.michaelrakowitz.com> .
 
-tag:lod2  a              sl:Tag ;
-        sl:comment       "\"Creating Knowledge out of Interlinked Data\"" ;
-        sl:creationDate  "2010-09-06" ;
-        sl:creationTime  "2010-09-06T09:30:47Z" ;
-        sl:describedBy   <http://lod2.eu/Welcome.html> ;
-        skos:broader     tag:european_project , tag:linking_open_data ;
-        skos:prefLabel   "LOD2"@fr .
+tag:vanishing_gradient
+        a                sl:Tag ;
+        sl:creationDate  "2019-06-11" ;
+        sl:creationTime  "2019-06-11T12:46:00Z" ;
+        skos:broader     tag:gradient_descent ;
+        skos:prefLabel   "Vanishing gradient" .
 
 tag:doc2vec  a           sl:Tag ;
         sl:comment       "(aka paragraph2vec, aka sentence embeddings) extends word2vec algorithm to larger blocks of text (sentences, paragraphs or entire documents). Represents each document by a dense vector which is trained to predict words in the document.\r\n\r\nParagraph Vectors is the name of the model proposed by Le and Mikolov to generate unsupervised representations of sentences, paragraphs, or entire documents without losing local word order.\r\n\r\nImplemented in [gensim](/tag/gensim)\r\n\r\n\r\n\r\n\r\n\r\n" ;
@@ -9111,6 +9135,11 @@ tag:evolutionary_computation
         skos:broader     tag:artificial_intelligence ;
         skos:prefLabel   "Evolutionary computation" .
 
+tag:famine  a           sl:Tag ;
+        skos:altLabel   "Crise alimentaire"@fr ;
+        skos:broader    tag:faim ;
+        skos:prefLabel  "Famine" .
+
 tag:paggr  a             sl:Tag ;
         sl:creationDate  "2008-11-03" ;
         sl:creationTime  "2008-11-03T10:15:21Z" ;
@@ -9774,6 +9803,11 @@ tag:map_territory_relation
         skos:broader     tag:general_semantics ;
         skos:prefLabel   "Map–territory relation"@fr .
 
+tag:velo  a              sl:Tag ;
+        sl:creationDate  "2020-07-12" ;
+        sl:creationTime  "2020-07-12T21:02:47Z" ;
+        skos:prefLabel   "Vélo" .
+
 tag:css_example  a      sl:Tag ;
         skos:broader    tag:css ;
         skos:prefLabel  "css example"@fr .
@@ -9895,8 +9929,8 @@ tag:memory_prediction_framework
 
 tag:ouigour  a           sl:Tag ;
         sl:creationDate  "2006-11-14" ;
-        skos:altLabel    "Xinjiang"@- ;
-        skos:broader     tag:peuples , tag:chine ;
+        skos:altLabel    "Xinjiang" ;
+        skos:broader     tag:chine , tag:peuples ;
         skos:prefLabel   "Ouïgour" .
 
 tag:chimpanze  a        sl:Tag ;
@@ -14146,7 +14180,7 @@ tag:lstm_networks  a     sl:Tag ;
         sl:describedBy   <https://en.wikipedia.org/wiki/Long_short-term_memory> ;
         skos:broader     tag:recurrent_neural_network ;
         skos:prefLabel   "LSTM"@en ;
-        skos:related     tag:time_series .
+        skos:related     tag:vanishing_gradient , tag:time_series .
 
 tag:film_danois  a      sl:Tag ;
         skos:broader    tag:film , tag:danemark ;
@@ -16360,7 +16394,7 @@ tag:carte_d_identite  a  sl:Tag ;
 tag:ernest  a            sl:Tag ;
         sl:creationDate  "2014-07-03" ;
         sl:creationTime  "2014-07-03T14:25:31Z" ;
-        skos:altLabel    "Ernest"@- ;
+        skos:altLabel    "Ernest" ;
         skos:broader     tag:ami ;
         skos:prefLabel   "Ernest Ilisca" ;
         skos:related     tag:hydrogen_economy .
@@ -19883,7 +19917,7 @@ tag:diffbot  a           sl:Tag ;
 tag:zinder  a            sl:Tag ;
         sl:creationDate  "2007-08-21" ;
         sl:creationTime  "2007-08-21T23:49:38Z" ;
-        skos:altLabel    "Damarangam"@- ;
+        skos:altLabel    "Damarangam" ;
         skos:broader     tag:niger ;
         skos:prefLabel   "Zinder" .
 
@@ -24974,7 +25008,7 @@ tag:paleoclimatologie
         a                sl:Tag ;
         sl:creationDate  "2021-06-06" ;
         sl:creationTime  "2021-06-06T09:48:18Z" ;
-        skos:altLabel    "paleo-climatologie"@- ;
+        skos:altLabel    "paleo-climatologie" ;
         skos:prefLabel   "Paleoclimatologie" .
 
 tag:blackbox_nlp  a      sl:Tag ;
@@ -26241,7 +26275,7 @@ tag:tests  a             sl:Tag ;
         sl:comment       "un lien vers un [doc](/doc/2020/01/test_md), et vers un [Tag](/tag/nlp)\r\n" ;
         sl:creationDate  "2013-09-03" ;
         sl:creationTime  "2013-09-03T16:16:20Z" ;
-        skos:altLabel    "Test"@- ;
+        skos:altLabel    "Test" ;
         skos:prefLabel   "Tests" .
 
 tag:json_ld_apis  a      sl:Tag ;
@@ -26335,7 +26369,7 @@ tag:pericles  a          sl:Tag ;
 
 tag:jermakoye  a        sl:Tag ;
         sl:sameAs       <http://dbpedia.org/resource/Djermakoy> ;
-        skos:altLabel   "Jermakoy"@- , "Zarmakoy"@- , "Jermakoye"@- ;
+        skos:altLabel   "Zarmakoy" , "Jermakoye" , "Jermakoy" ;
         skos:broader    tag:dosso , tag:jerma ;
         skos:prefLabel  "Djermakoye"@fr .
 
