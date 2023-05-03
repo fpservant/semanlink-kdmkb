@@ -26620,7 +26620,7 @@ tag:pericles  a          sl:Tag ;
 
 tag:jermakoye  a        sl:Tag ;
         sl:sameAs       <http://dbpedia.org/resource/Djermakoy> ;
-        skos:altLabel   "Jermakoy" , "Zarmakoy" , "Jermakoy"@- , "Jermakoye" ;
+        skos:altLabel   "Jermakoy" , "Zarmakoy" , "Jermakoye" ;
         skos:broader    tag:dosso , tag:jerma ;
         skos:prefLabel  "Djermakoye"@fr .
 

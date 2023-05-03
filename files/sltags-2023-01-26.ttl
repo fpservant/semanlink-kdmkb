@@ -28419,7 +28419,7 @@ tag:nlp_harvard  a       sl:Tag ;
 
 tag:jermakoye  a        sl:Tag ;
         sl:sameAs       <http://dbpedia.org/resource/Djermakoy> ;
-        skos:altLabel   "Jermakoye" , "Jermakoy"@- , "Zarmakoy" , "Jermakoy" ;
+        skos:altLabel   "Jermakoye" , "Zarmakoy" , "Jermakoy" ;
         skos:broader    tag:jerma , tag:dosso ;
         skos:prefLabel  "Djermakoye"@fr .
 

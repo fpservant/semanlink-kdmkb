@@ -4411,7 +4411,7 @@ tag:hayabusa2  a         sl:Tag ;
         sl:creationDate  "2021-01-09" ;
         sl:creationTime  "2021-01-09T14:22:21Z" ;
         sl:describedBy   <https://en.wikipedia.org/wiki/Hayabusa2> ;
-        skos:altLabel    "Hayabusa2"@- ;
+        skos:altLabel    "Hayabusa2" ;
         skos:broader     tag:japon , tag:asteroide , tag:missions_spatiales ;
         skos:prefLabel   "Hayabusa-2" ;
         skos:related     tag:hayabusa .
